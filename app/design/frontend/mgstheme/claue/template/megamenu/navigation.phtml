@@ -1,0 +1,91 @@
+<?php $megaMenu = $this->getMegamenuItems(); ?>
+<?php $helper = $this->helper('mpanel'); ?>
+
+<?php if(count($megaMenu)>0 || Mage::getStoreConfig('megamenu/general/home')==1):?>
+	<?php if(Mage::getStoreConfig('megamenu/general/homeposition') == "" || Mage::getStoreConfig('megamenu/general/homeposition') == 0): ?>
+		<?php $positionHomeLink = 0;?>
+	<?php else: ?>
+		<?php $positionHomeLink = Mage::getStoreConfig('megamenu/general/homeposition');?>
+	<?php endif;?>
+	<ul id="mainMenu" class="nav nav-pills nav-main aik-file">
+	<?php if(count($megaMenu)>0): ?>
+		<?php if($positionHomeLink <= 0 ): ?>
+			<?php if(Mage::getStoreConfig('megamenu/general/home')==1): ?>
+				<li class="logo-home home <?php if($this->getUrl('') == $this->getUrl('*/*/*', array('_current'=>true, '_use_rewrite'=>true))):?>  active<?php endif ?>">
+					<?php if(Mage::getStoreConfig('megamenu/general/home')==1): ?>
+						<div class="logo-container<?php if($helper->acceptToUsePanel()): ?> builder-container child-builder<?php endif ?>">
+							<?php echo $this->getLayout()->createBlock('page/html_header')->setTemplate('page/html/logo.phtml')->toHtml(); ?>
+							<?php if($helper->acceptToUsePanel()): ?><?php echo $helper->getEditLogoPanel() ?><?php endif ?>
+						</div>
+					<?php else:?>
+						<a href="<?php echo $this->getBaseUrl() ?>">
+							<?php echo Mage::getStoreConfig('megamenu/general/hometext') ?>
+						</a>
+					<?php endif;?>
+				</li>
+			<?php endif;?>
+			<?php $i=0; foreach($megaMenu as $item): $i++ ?>
+						<li class="<?php echo $this->getClass($item) ?>">
+							<?php echo $this->getMenuHtml($item) ?>
+						</li>
+			<?php endforeach ?>
+		<?php else: ?>
+			<?php $i=0; foreach($megaMenu as $item): $i++ ?>
+				
+				<?php if($item->getPosition() < $positionHomeLink ): ?>
+					<li class="aik-sub-section <?php echo $this->getClass($item) ?>">
+						<?php echo $this->getMenuHtml($item) ?>
+						</li>
+
+						<?php endif;?>
+										<?php endforeach ?>
+					<?php if(Mage::getStoreConfig('megamenu/general/home')==1): ?>
+					<li class="home logo-home <?php if($this->getUrl('') == $this->getUrl('*/*/*', array('_current'=>true, '_use_rewrite'=>true))):?>  active<?php endif ?>">
+						
+							<div class="logo-container<?php if($helper->acceptToUsePanel()): ?> builder-container child-builder<?php endif ?>">
+								<?php echo $this->getLayout()->createBlock('page/html_header')->setTemplate('page/html/logo.phtml')->toHtml(); ?>
+								<?php if($helper->acceptToUsePanel()): ?><?php echo $helper->getEditLogoPanel() ?><?php endif ?>
+							</div>
+						
+					</li>
+					<?php endif;?>
+				<?php $i=0; foreach($megaMenu as $item): $i++ ?>
+							<?php if($item->getPosition() >= $positionHomeLink): ?>
+								<li class="<?php echo $this->getClass($item) ?>">
+									<?php echo $this->getMenuHtml($item) ?>
+								</li>
+						
+							<?php endif ?>
+						<?php endforeach ?>
+		<?php endif;?>
+		<?php endif ?>
+	</ul>
+<?php endif ?>
+<div class="row hidden-sm hidden-xs">
+<div class="col-md-4 col-sm-6 col-xs-12 aik-main-cat-sub-section">
+<ul>
+<li><a href="#">New Arrivals</a></li>
+<li><a href="#">Unstitched</a></li>
+<!-- <li><a href="#">Ready to wear</a></li> -->
+<li><a href="#">Sale</a></li>
+
+</ul>
+</div>
+
+<div class="col-md-4 col-sm-6 col-xs-12 aik-main-cat-sub-section">
+<ul>
+<li><a href="#">Unstitched</a></li>
+<!-- <li><a href="#">Ready to wear</a></li> -->
+</ul>
+</div>
+
+<div class="col-md-4 col-sm-6 col-xs-12 aik-main-cat-sub-section">
+<ul>
+<li><a href="#">The House</a></li>
+<li><a href="#">Aik feed</a></li>
+<li><a href="#">Services</a></li>
+</ul>
+</div>
+
+
+</div>

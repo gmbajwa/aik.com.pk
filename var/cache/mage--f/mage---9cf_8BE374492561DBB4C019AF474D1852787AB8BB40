@@ -1,0 +1,64 @@
+ 
+<div class="search-form">
+<div class="actions-search">
+	<a class="action-search" href="javascript:void(0);">
+	<span class="header-top-right-search-text">Search</span><span class="pe-7s-search"></span>
+	</a>
+</div>
+<div class="form-search">
+<a class="close-search" href="javascript:void(0);">
+		<span class="pe-7s-close"></span>
+	</a>
+<form id="advancedsearch_mini_form" action="https://master.aik.com.pk/catalogsearch/result/?___SID=U" method="get">    
+                        <div class="search-select">
+			
+			<input type="hidden" name="cat" id="cat-select-input" value=""/>
+							<span class="search-cat-active" onclick="toggleCatSearch()" id="cat-active-name">All Categories</span>
+						<ul id="select-cat-dropdown" style="display:none">
+				<li><span onclick="setSearchCatValue('', 'All Categories')">All Categories</span></li>
+									<li>
+						<span onclick="setSearchCatValue(120, 'New Arrivals')">New Arrivals</span>
+													<ul>
+															</ul>
+											</li>
+									<li>
+						<span onclick="setSearchCatValue(123, 'Unstitched')">Unstitched</span>
+													<ul>
+																	<li>
+										<span onclick="setSearchCatValue(124, 'Fall 19')">- Fall 19</span>
+									</li>
+															</ul>
+											</li>
+									<li>
+						<span onclick="setSearchCatValue(147, 'Sale')">Sale</span>
+													<ul>
+																	<li>
+										<span onclick="setSearchCatValue(148, 'All')">- All</span>
+									</li>
+															</ul>
+											</li>
+							</ul>
+		
+        		</div>
+		<input id="advancedsearch" type="text" name="q" value="" class="input-text" placeholder="Search for..." />
+        <button type="submit" title="Search" class="button"><i class="fa fa-search"></i></button>
+        <div id="advancedsearch_autocomplete" class="search-autocomplete"></div>
+    
+</form>
+</div>
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+    var advancedSearchForm = new Varien.searchForm('advancedsearch_mini_form', 'advancedsearch', '');
+    advancedSearchForm.initAutocomplete('https://master.aik.com.pk/catalogsearch/ajax/suggest/?___SID=U', 'advancedsearch_autocomplete');
+//]]>
+	function toggleCatSearch(){
+		mgsjQuery('#select-cat-dropdown').slideToggle();
+	}
+	function setSearchCatValue(catId, catName){
+		mgsjQuery('#cat-select-input').val(catId);
+		mgsjQuery('#cat-active-name').html(catName);
+		mgsjQuery('#select-cat-dropdown').hide();
+	}
+</script>

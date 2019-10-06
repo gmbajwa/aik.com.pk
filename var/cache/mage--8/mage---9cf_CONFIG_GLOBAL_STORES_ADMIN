@@ -1,0 +1,604 @@
+<admin><design><package><name>default</name><area>frontend</area><default_theme>default</default_theme><theme>default</theme><translate>default</translate><ua_regexp>a:0:{}</ua_regexp></package><theme><default>default</default><locale/><template/><template_ua_regexp>a:0:{}</template_ua_regexp><skin/><skin_ua_regexp>a:0:{}</skin_ua_regexp><layout/><layout_ua_regexp>a:0:{}</layout_ua_regexp><default_ua_regexp>a:0:{}</default_ua_regexp></theme><pagination><list_allow_all>1</list_allow_all><pagination_frame>5</pagination_frame><pagination_frame_skip/><anchor_text_for_previous>Prev</anchor_text_for_previous><anchor_text_for_next>Next</anchor_text_for_next></pagination><email><css_non_inline>email-non-inline.css</css_non_inline><header>design_email_header</header><footer>design_email_footer</footer><logo_alt/><logo_width/><logo_height/></email><head translate="default_description" module="page"><default_title>AIK.COM.PK</default_title><default_description>Default Description</default_description><default_keywords>Magento, Varien, E-commerce</default_keywords><default_robots>INDEX,FOLLOW</default_robots><default_media_type>text/html</default_media_type><default_charset>utf-8</default_charset><title_prefix/><title_suffix/><includes/><demonotice>0</demonotice><shortcut_icon>default/AIK_Final_File-01.jpg</shortcut_icon></head><header translate="welcome" module="page"><logo_src>images/logo.gif</logo_src><logo_alt>Magento Commerce</logo_alt><logo_src_small>images/logo.gif</logo_src_small><welcome>Default welcome msg!</welcome></header><footer translate="copyright" module="page"><copyright>©2019&lt;span style=&quot;color:</copyright><absolute_footer/></footer><watermark><image_size/><image_imageOpacity/><image_position>stretch</image_position><small_image_size/><small_image_imageOpacity/><small_image_position>stretch</small_image_position><thumbnail_size/><thumbnail_imageOpacity/><thumbnail_position>stretch</thumbnail_position></watermark></design><system><store><id>0</id><name>Admin</name></store><website><id>0</id><name>Admin</name></website><stores><admin>0</admin></stores><filesystem><base>{{root_dir}}</base><app>{{root_dir}}/app</app><code>{{app_dir}}/code</code><design>{{app_dir}}/design</design><locale>{{app_dir}}/locale</locale><etc>{{app_dir}}/etc</etc><media>{{root_dir}}/media</media><upload>{{root_dir}}/media/upload</upload><skin>{{root_dir}}/skin</skin><var>{{var_dir}}</var><cache>{{var_dir}}/cache</cache><session>{{var_dir}}/session</session><tmp>{{var_dir}}/tmp</tmp><pear>{{var_dir}}/pear</pear><export>{{var_dir}}/export</export></filesystem><smtp><disable>0</disable><host>localhost</host><port>25</port><set_return_path>0</set_return_path></smtp><media_storage_configuration><media_storage>0</media_storage><media_database>default_setup</media_database><configuration_update_time>3600</configuration_update_time><allowed_resources><compiled_css_folder>css</compiled_css_folder><compiled_css_secure_folder>css_secure</compiled_css_secure_folder><compiled_js_folder>js</compiled_js_folder><site_favicons>favicon</site_favicons><email_folder>email</email_folder><wysiwyg_image_folder>wysiwyg</wysiwyg_image_folder><catalog_images_folder>catalog</catalog_images_folder><product_custom_options_fodler>custom_options</product_custom_options_fodler><dhl_folder>dhl</dhl_folder><captcha_folder>captcha</captcha_folder></allowed_resources><ignored_resources>.svn,.htaccess</ignored_resources></media_storage_configuration><emails><forgot_email_template>system_emails_forgot_email_template</forgot_email_template><forgot_email_identity>general</forgot_email_identity></emails><dashboard><enable_charts>1</enable_charts></dashboard><adminnotification><feed_url>notifications.magentocommerce.com/community/notifications.rss</feed_url><popup_url>widgets.magentocommerce.com/notificationPopup</popup_url><severity_icons_url>widgets.magentocommerce.com/%s/%s.gif</severity_icons_url><use_https>0</use_https><frequency>1</frequency><last_update>0</last_update></adminnotification><cron><schedule_generate_every>15</schedule_generate_every><schedule_ahead_for>20</schedule_ahead_for><schedule_lifetime>15</schedule_lifetime><history_cleanup_every>10</history_cleanup_every><history_success_lifetime>60</history_success_lifetime><history_failure_lifetime>600</history_failure_lifetime></cron><currency><installed>AFN,ALL,DZD,AOA,ARS,AMD,AWG,AUD,AZN,AZM,BSD,BHD,BDT,BBD,BYR,BZD,BMD,BTN,BOB,BAM,BWP,BRL,GBP,BND,BGN,BUK,BIF,XOF,XPF,KHR,CAD,CVE,KYD,CLP,CNY,COP,KMF,CDF,CRC,HRK,CUP,CZK,DKK,DJF,DOP,XCD,EGP,GQE,ERN,EEK,ETB,EUR,FKP,FJD,GMD,GEK,GEL,GHS,GIP,GTQ,GNF,GYD,HTG,HNL,HKD,HUF,ISK,INR,IDR,IRR,IQD,ILS,JMD,JPY,JOD,KZT,KES,KWD,KGS,LAK,LVL,LBP,LSL,LRD,LYD,LTL,MOP,MKD,MGA,MWK,MYR,MVR,MRO,MUR,MXN,MDL,MNT,MAD,MZN,MMK,NAD,NPR,ANG,TWD,NZD,NIC,NGN,KPW,NOK,OMR,PKR,PAB,PGK,PYG,PEN,PHP,PLN,QAR,RHD,RON,ROL,RUB,RWF,SHP,SVC,WST,SAR,RSD,SCR,SLL,SGD,SKK,SBD,SOS,ZAR,KRW,LKR,SDG,SRD,SZL,SEK,CHF,SYP,STD,TJS,TZS,THB,TOP,TTD,TND,TRY,TRL,TMM,USD,UGX,UAH,AED,UYU,UZS,VUV,VEF,VEB,VND,CHE,CHW,YER,ZMK,ZWD</installed></currency><log><clean_after_day>180</clean_after_day><enabled>1</enabled><time>00,00,00</time><frequency>D</frequency><error_email/><error_email_identity>general</error_email_identity><error_email_template>system_log_error_email_template</error_email_template><enable_log>2</enable_log></log><external_page_cache><enabled>0</enabled><control>zend_page_cache</control><cookie_lifetime>3600</cookie_lifetime></external_page_cache><csrf><use_form_key>1</use_form_key></csrf><import_csv><configurable_page_size>1000</configurable_page_size></import_csv><export_csv><escaping>1</escaping></export_csv><backup><enabled>0</enabled></backup></system><web><routers><frontend><disabled>true</disabled></frontend><admin><area>admin</area><class>Mage_Core_Controller_Varien_Router_Admin</class></admin><standard><area>frontend</area><class>Mage_Core_Controller_Varien_Router_Standard</class></standard></routers><default><no_route>admin/index/noRoute</no_route><cms_home_page>home</cms_home_page><cms_no_route>no-route</cms_no_route><cms_no_cookies>enable-cookies</cms_no_cookies><front>cms</front><show_cms_breadcrumbs>1</show_cms_breadcrumbs></default><url><use_store>0</use_store><redirect_to_base>1</redirect_to_base></url><seo><use_rewrites>1</use_rewrites></seo><unsecure><base_url>https://master.aik.com.pk/</base_url><base_web_url>{{unsecure_base_url}}</base_web_url><base_link_url>{{unsecure_base_url}}</base_link_url><base_js_url>{{unsecure_base_url}}js/</base_js_url><base_skin_url>{{unsecure_base_url}}skin/</base_skin_url><base_media_url>{{unsecure_base_url}}media/</base_media_url></unsecure><secure><base_url>https://master.aik.com.pk/</base_url><base_web_url>{{secure_base_url}}</base_web_url><base_link_url>{{secure_base_url}}</base_link_url><base_js_url>{{secure_base_url}}js/</base_js_url><base_skin_url>{{secure_base_url}}skin/</base_skin_url><base_media_url>{{secure_base_url}}media/</base_media_url><use_in_frontend>0</use_in_frontend><use_in_adminhtml>0</use_in_adminhtml><offloader_header>SSL_OFFLOADED</offloader_header></secure><cookie><cookie_lifetime>3600</cookie_lifetime><cookie_httponly>1</cookie_httponly><cookie_restriction>0</cookie_restriction><cookie_restriction_lifetime>31536000</cookie_restriction_lifetime><cookie_path/><cookie_domain/></cookie><session><use_remote_addr>0</use_remote_addr><use_http_via>0</use_http_via><use_http_x_forwarded_for>0</use_http_x_forwarded_for><use_http_user_agent>0</use_http_user_agent><use_frontend_sid>1</use_frontend_sid></session><browser_capabilities><cookies>1</cookies><javascript>1</javascript></browser_capabilities><polls><poll_check_by_ip>0</poll_check_by_ip></polls></web><general><locale><code>en_US</code><timezone>America/Los_Angeles</timezone><firstday>0</firstday><weekend>0,6</weekend></locale><country><eu_countries>AT,BE,BG,CY,CZ,DK,EE,FI,FR,DE,GR,HU,IE,IT,LV,LT,LU,MT,NL,PL,PT,RO,SK,SI,ES,SE,GB</eu_countries><optional_zip_countries>HK,IE,MO,PA</optional_zip_countries><allow>AF,AL,DZ,AS,AD,AO,AI,AQ,AG,AR,AM,AW,AU,AT,AX,AZ,BS,BH,BD,BB,BY,BE,BZ,BJ,BM,BL,BT,BO,BA,BW,BV,BR,IO,VG,BN,BG,BF,BI,KH,CM,CA,CD,CV,KY,CF,TD,CL,CN,CX,CC,CO,KM,CG,CK,CR,HR,CU,CY,CZ,DK,DJ,DM,DO,EC,EG,SV,GQ,ER,EE,ET,FK,FO,FJ,FI,FR,GF,PF,TF,GA,GM,GE,DE,GG,GH,GI,GR,GL,GD,GP,GU,GT,GN,GW,GY,HT,HM,HN,HK,HU,IS,IM,IN,ID,IR,IQ,IE,IL,IT,CI,JE,JM,JP,JO,KZ,KE,KI,KW,KG,LA,LV,LB,LS,LR,LY,LI,LT,LU,ME,MF,MO,MK,MG,MW,MY,MV,ML,MT,MH,MQ,MR,MU,YT,FX,MX,FM,MD,MC,MN,MS,MA,MZ,MM,NA,NR,NP,NL,AN,NC,NZ,NI,NE,NG,NU,NF,KP,MP,NO,OM,PK,PW,PA,PG,PY,PE,PH,PN,PL,PS,PT,PR,QA,RE,RO,RS,RU,RW,SH,KN,LC,PM,VC,WS,SM,ST,SA,SN,SC,SL,SG,SK,SI,SB,SO,ZA,GS,KR,ES,LK,SD,SR,SJ,SZ,SE,CH,SY,TL,TW,TJ,TZ,TH,TG,TK,TO,TT,TN,TR,TM,TC,TV,VI,UG,UA,AE,GB,US,UM,UY,UZ,VU,VA,VE,VN,WF,EH,YE,ZM,ZW</allow><default>US</default></country><file><protected_extensions><php>php</php><htaccess>htaccess</htaccess><jsp>jsp</jsp><pl>pl</pl><py>py</py><asp>asp</asp><sh>sh</sh><cgi>cgi</cgi><htm>htm</htm><html>html</html><phtml>phtml</phtml><shtml>shtml</shtml></protected_extensions><public_files_valid_paths><protected><app>/app/*/*</app></protected></public_files_valid_paths><sitemap_generate_valid_paths><available><any_path>/*/sitemap.xml</any_path></available></sitemap_generate_valid_paths><importexport_local_valid_paths><available><export_xml>var/export/*/*.xml</export_xml><export_csv>var/export/*/*.csv</export_csv><import_xml>var/import/*/*.xml</import_xml><import_csv>var/import/*/*.csv</import_csv></available></importexport_local_valid_paths><bunch_size>100</bunch_size></file><validator_data><input_types><text>text</text><textarea>textarea</textarea><date>date</date><boolean>boolean</boolean><multiselect>multiselect</multiselect><select>select</select><price>price</price><media_image>media_image</media_image><gallery>gallery</gallery><weee>weee</weee></input_types></validator_data><local><datetime_format_long>%A, %B %e %Y [%I:%M %p]</datetime_format_long><datetime_format_medium>%a, %b %e %Y [%I:%M %p]</datetime_format_medium><datetime_format_short>%m/%d/%y [%I:%M %p]</datetime_format_short><date_format_long>%A, %B %e %Y</date_format_long><date_format_medium>%a, %b %e %Y</date_format_medium><date_format_short>%m/%d/%y</date_format_short><language>en</language></local><region><display_all>1</display_all><state_required>AT,CA,CH,DE,EE,ES,FI,FR,LT,LV,RO,US</state_required></region></general><dev><restrict><allow_ips/></restrict><debug><profiler>0</profiler></debug><translate_inline><active>0</active><active_admin>0</active_admin><invalid_caches><block_html/></invalid_caches></translate_inline><log><active>1</active><file>system.log</file><exception_file>exception.log</exception_file></log><js><merge_files>0</merge_files></js><css><merge_css_files>0</merge_css_files></css></dev><trans_email><ident_custom1><email>custom1@example.com</email><name>Custom 1</name></ident_custom1><ident_custom2><email>custom2@example.com</email><name>Custom 2</name></ident_custom2><ident_general><email>owner@example.com</email><name>Owner</name></ident_general><ident_sales><email>sales@example.com</email><name>Sales</name></ident_sales><ident_support><email>support@example.com</email><name>CustomerSupport</name></ident_support></trans_email><admin><startup><page>dashboard</page></startup><url><use_custom>0</use_custom><custom/><use_custom_path>0</use_custom_path></url><security><use_form_key>1</use_form_key><domain_policy_backend>2</domain_policy_backend><domain_policy_frontend>2</domain_policy_frontend><use_case_sensitive_login>0</use_case_sensitive_login><session_cookie_lifetime/><validate_formkey_checkout>1</validate_formkey_checkout><extensions_compatibility_mode>1</extensions_compatibility_mode><forgot_password_flow_secure>1</forgot_password_flow_secure><forgot_password_ip_times>5</forgot_password_ip_times><forgot_password_email_times>5</forgot_password_email_times></security><emails><forgot_email_template>admin_emails_forgot_email_template</forgot_email_template><forgot_email_identity>general</forgot_email_identity><password_reset_link_expiration_period>2</password_reset_link_expiration_period></emails><captcha><type>zend</type><enable>0</enable><font>linlibertine</font><mode>after_fail</mode><forms>backend_forgotpassword</forms><failed_attempts_login>3</failed_attempts_login><failed_attempts_ip>1000</failed_attempts_ip><timeout>7</timeout><length>4-5</length><symbols>ABCDEFGHJKMnpqrstuvwxyz23456789</symbols><case_sensitive>0</case_sensitive><always_for><backend_forgotpassword>1</backend_forgotpassword></always_for></captcha><dashboard><enable_charts>1</enable_charts></dashboard></admin><hints><store_switcher><url>http://www.magentocommerce.com/knowledge-base/entry/understanding-store-scopes</url><enabled>1</enabled></store_switcher></hints><currency><options><allow>USD</allow><base>USD</base><default>USD</default></options><webservicex><timeout>100</timeout></webservicex><import><enabled>0</enabled><error_email/><error_email_identity>general</error_email_identity><error_email_template>currency_import_error_email_template</error_email_template><service>webservicex</service><time>00,00,00</time><frequency>D</frequency></import></currency><cms><wysiwyg><enabled>enabled</enabled></wysiwyg></cms><customer><account_share><scope>1</scope></account_share><create_account><confirm>0</confirm><default_group>1</default_group><tax_calculation_address_type>billing</tax_calculation_address_type><email_domain>example.com</email_domain><email_identity>general</email_identity><email_template>customer_create_account_email_template</email_template><email_confirmation_template>customer_create_account_email_confirmation_template</email_confirmation_template><email_confirmed_template>customer_create_account_email_confirmed_template</email_confirmed_template><vat_frontend_visibility>0</vat_frontend_visibility></create_account><default><group>1</group></default><password><forgot_email_identity>support</forgot_email_identity><forgot_email_template>customer_password_forgot_email_template</forgot_email_template><remind_email_template>customer_password_remind_email_template</remind_email_template><reset_link_expiration_period>1</reset_link_expiration_period><require_admin_user_to_change_user_password>1</require_admin_user_to_change_user_password></password><address><street_lines>2</street_lines><prefix_show/><prefix_options/><middlename_show/><suffix_show/><suffix_options/><dob_show/><gender_show/></address><startup><redirect_dashboard>1</redirect_dashboard></startup><address_templates><text>{{depend prefix}}{{var prefix}} {{/depend}}{{var firstname}} {{depend middlename}}{{var middlename}} {{/depend}}{{var lastname}}{{depend suffix}} {{var suffix}}{{/depend}}
+{{depend company}}{{var company}}{{/depend}}
+{{if street1}}{{var street1}}
+{{/if}}
+{{depend street2}}{{var street2}}{{/depend}}
+{{depend street3}}{{var street3}}{{/depend}}
+{{depend street4}}{{var street4}}{{/depend}}
+{{if city}}{{var city}},  {{/if}}{{if region}}{{var region}}, {{/if}}{{if postcode}}{{var postcode}}{{/if}}
+{{var country}}
+T: {{var telephone}}
+{{depend fax}}F: {{var fax}}{{/depend}}
+{{depend vat_id}}VAT: {{var vat_id}}{{/depend}}</text><oneline>{{depend prefix}}{{var prefix}} {{/depend}}{{var firstname}} {{depend middlename}}{{var middlename}} {{/depend}}{{var lastname}}{{depend suffix}} {{var suffix}}{{/depend}}, {{var street}}, {{var city}}, {{var region}} {{var postcode}}, {{var country}}</oneline><html>{{depend prefix}}{{var prefix}} {{/depend}}{{var firstname}} {{depend middlename}}{{var middlename}} {{/depend}}{{var lastname}}{{depend suffix}} {{var suffix}}{{/depend}}&lt;br/&gt;
+{{depend company}}{{var company}}&lt;br /&gt;{{/depend}}
+{{if street1}}{{var street1}}&lt;br /&gt;{{/if}}
+{{depend street2}}{{var street2}}&lt;br /&gt;{{/depend}}
+{{depend street3}}{{var street3}}&lt;br /&gt;{{/depend}}
+{{depend street4}}{{var street4}}&lt;br /&gt;{{/depend}}
+{{if city}}{{var city}},  {{/if}}{{if region}}{{var region}}, {{/if}}{{if postcode}}{{var postcode}}{{/if}}&lt;br/&gt;
+{{var country}}&lt;br/&gt;
+{{depend telephone}}T: {{var telephone}}{{/depend}}
+{{depend fax}}&lt;br/&gt;F: {{var fax}}{{/depend}}
+{{depend vat_id}}&lt;br/&gt;VAT: {{var vat_id}}{{/depend}}</html><pdf>{{depend prefix}}{{var prefix}} {{/depend}}{{var firstname}} {{depend middlename}}{{var middlename}} {{/depend}}{{var lastname}}{{depend suffix}} {{var suffix}}{{/depend}}|
+{{depend company}}{{var company}}|{{/depend}}
+{{if street1}}{{var street1}}
+{{/if}}
+{{depend street2}}{{var street2}}|{{/depend}}
+{{depend street3}}{{var street3}}|{{/depend}}
+{{depend street4}}{{var street4}}|{{/depend}}
+{{if city}}{{var city}},|{{/if}}
+{{if region}}{{var region}}, {{/if}}{{if postcode}}{{var postcode}}{{/if}}|
+{{var country}}|
+{{depend telephone}}T: {{var telephone}}{{/depend}}|
+{{depend fax}}&lt;br/&gt;F: {{var fax}}{{/depend}}|
+{{depend vat_id}}&lt;br/&gt;VAT: {{var vat_id}}{{/depend}}|</pdf><js_template>#{prefix} #{firstname} #{middlename} #{lastname} #{suffix}&lt;br/&gt;#{company}&lt;br/&gt;#{street0}&lt;br/&gt;#{street1}&lt;br/&gt;#{street2}&lt;br/&gt;#{street3}&lt;br/&gt;#{city}, #{region}, #{postcode}&lt;br/&gt;#{country_id}&lt;br/&gt;T: #{telephone}&lt;br/&gt;F: #{fax}&lt;br/&gt;VAT: #{vat_id}</js_template></address_templates><captcha><type>zend</type><enable>0</enable><font>linlibertine</font><mode>after_fail</mode><forms>user_forgotpassword</forms><failed_attempts_login>3</failed_attempts_login><failed_attempts_ip>1000</failed_attempts_ip><timeout>7</timeout><length>4-5</length><symbols>ABCDEFGHJKMnpqrstuvwxyz23456789</symbols><case_sensitive>0</case_sensitive><always_for><user_create>1</user_create><user_forgotpassword>1</user_forgotpassword><guest_checkout>1</guest_checkout><register_during_checkout>1</register_during_checkout></always_for></captcha></customer><catalog><navigation><max_depth>0</max_depth></navigation><frontend><list_mode>grid-list</list_mode><grid_per_page_values>6,12,24</grid_per_page_values><list_per_page_values>5,10,15,20,25</list_per_page_values><grid_per_page>12</grid_per_page><list_per_page>10</list_per_page><flat_catalog_category>1</flat_catalog_category><default_sort_by>position</default_sort_by><parse_url_directives>1</parse_url_directives><list_allow_all>0</list_allow_all><flat_catalog_product>1</flat_catalog_product></frontend><sitemap><tree_mode>0</tree_mode><lines_perpage>30</lines_perpage></sitemap><product><default_tax_group>2</default_tax_group></product><product_image><base_width>1800</base_width><small_width>210</small_width><max_dimension>5000</max_dimension></product_image><seo><product_url_suffix>.html</product_url_suffix><category_url_suffix>.html</category_url_suffix><product_use_categories>1</product_use_categories><save_rewrites_history>1</save_rewrites_history><title_separator>-</title_separator><category_canonical_tag>0</category_canonical_tag><product_canonical_tag>0</product_canonical_tag><search_terms>1</search_terms><site_map>1</site_map></seo><custom_options><date_fields_order>m,d,y</date_fields_order><time_format>12h</time_format><forbidden_extensions>php,exe</forbidden_extensions><use_calendar>0</use_calendar><year_range>,</year_range></custom_options><layered_navigation><price_range_calculation>auto</price_range_calculation><price_range_step>100</price_range_step><price_range_max_intervals>10</price_range_max_intervals><one_price_interval>0</one_price_interval><interval_division_limit>9</interval_division_limit><display_product_count>1</display_product_count></layered_navigation><search><min_query_length>1</min_query_length><max_query_length>128</max_query_length><max_query_words>10</max_query_words><search_type>1</search_type><use_layered_navigation_count>2000</use_layered_navigation_count><show_autocomplete_results_count>1</show_autocomplete_results_count></search><review><allow_guest>1</allow_guest></review><recently_products><scope>website</scope><viewed_count>5</viewed_count><compared_count>5</compared_count></recently_products><productalert><allow_price>0</allow_price><allow_stock>0</allow_stock><email_price_template>catalog_productalert_email_price_template</email_price_template><email_stock_template>catalog_productalert_email_stock_template</email_stock_template><email_identity>general</email_identity></productalert><productalert_cron><error_email/><error_email_template>catalog_productalert_cron_error_email_template</error_email_template><error_email_identity>general</error_email_identity><frequency>D</frequency><time>00,00,00</time></productalert_cron><downloadable><downloads_number>0</downloads_number><order_item_status>9</order_item_status><samples_title>Samples</samples_title><links_title>Links</links_title><links_target_new_window>1</links_target_new_window><content_disposition>inline</content_disposition><disable_guest_checkout>1</disable_guest_checkout><shareable>0</shareable></downloadable><category><root_id>2</root_id></category><price><scope>0</scope></price></catalog><sales><msrp><enabled>0</enabled><apply_for_all>0</apply_for_all><display_price_type>1</display_price_type><explanation_message>Our price is lower than the manufacturer&apos;s &quot;minimum advertised price.&quot;  As a result, we cannot show you the price in catalog or the product page. &lt;br /&gt;&lt;br /&gt; You have no obligation to purchase the product once you know the price. You can simply remove the item from your cart.</explanation_message><explanation_message_whats_this>Our price is lower than the manufacturer&apos;s &quot;minimum advertised price.&quot;  As a result, we cannot show you the price in catalog or the product page. &lt;br /&gt;&lt;br /&gt; You have no obligation to purchase the product once you know the price. You can simply remove the item from your cart.</explanation_message_whats_this></msrp><totals_sort><discount>20</discount><grand_total>100</grand_total><shipping>30</shipping><subtotal>10</subtotal><tax>40</tax><weee>50</weee><mgs_deals>15</mgs_deals></totals_sort><reorder><allow>1</allow></reorder><gift_messages><allow_items>0</allow_items><allow_order>0</allow_order></gift_messages></sales><payment><ccsave><active>1</active><cctypes>AE,VI,MC,DI</cctypes><model>payment/method_ccsave</model><order_status>pending</order_status><title>Credit Card (saved)</title><allowspecific>0</allowspecific><group>offline</group></ccsave><checkmo><active>1</active><model>payment/method_checkmo</model><order_status>pending</order_status><title>Check / Money order</title><allowspecific>0</allowspecific><group>offline</group></checkmo><free><active>1</active><model>payment/method_free</model><order_status>pending</order_status><title>No Payment Information Required</title><allowspecific>0</allowspecific><sort_order>1</sort_order><group>offline</group></free><purchaseorder><active>0</active><model>payment/method_purchaseorder</model><order_status>pending</order_status><title>Purchase Order</title><allowspecific>0</allowspecific><group>offline</group></purchaseorder><banktransfer><active>0</active><model>payment/method_banktransfer</model><order_status>pending</order_status><title>Bank Transfer Payment</title><allowspecific>0</allowspecific><group>offline</group></banktransfer><cashondelivery><active>0</active><model>payment/method_cashondelivery</model><order_status>pending</order_status><title>Cash On Delivery</title><allowspecific>0</allowspecific><group>offline</group></cashondelivery><authorizenet><active>0</active><cctypes>AE,VI,MC,DI</cctypes><cgi_url>https://secure.authorize.net/gateway/transact.dll</cgi_url><debug>0</debug><email_customer>0</email_customer><login backend_model="adminhtml/system_config_backend_encrypted"/><merchant_email/><model>paygate/authorizenet</model><order_status>processing</order_status><payment_action>authorize</payment_action><test>1</test><title>Credit Card (Authorize.net)</title><trans_key backend_model="adminhtml/system_config_backend_encrypted"/><allowspecific>0</allowspecific><currency>USD</currency><partial_authorization_checksum_checking>1</partial_authorization_checksum_checking></authorizenet><paypal_express><model>paypal/express</model><title>PayPal Express Checkout</title><payment_action>Authorization</payment_action><solution_type>Mark</solution_type><line_items_enabled>1</line_items_enabled><visible_on_cart>1</visible_on_cart><visible_on_product>1</visible_on_product><allow_ba_signup>never</allow_ba_signup><group>paypal</group><authorization_honor_period>3</authorization_honor_period><order_valid_period>29</order_valid_period><child_authorization_number>1</child_authorization_number><verify_peer>1</verify_peer><skip_order_review_step>1</skip_order_review_step></paypal_express><paypal_express_bml><model>paypal/bml</model><title>Paypal Credit</title><group>paypal</group></paypal_express_bml><paypal_direct><model>paypal/direct</model><title>PayPal Payments Pro</title><payment_action>Authorization</payment_action><cctypes>VI,MC</cctypes><useccv>1</useccv><group>paypal</group><verify_peer>1</verify_peer></paypal_direct><paypal_standard><model>paypal/standard</model><title>PayPal Website Payments Standard</title><payment_action>Sale</payment_action><line_items_enabled>1</line_items_enabled><group>paypal</group><verify_peer>1</verify_peer></paypal_standard><paypaluk_express><title>PayPal Express Checkout Payflow Edition</title><payment_action>Authorization</payment_action><line_items_enabled>1</line_items_enabled><visible_on_cart>1</visible_on_cart><visible_on_product>1</visible_on_product><group>paypal</group><verify_peer>1</verify_peer><model>paypaluk/express</model></paypaluk_express><paypaluk_direct><title>PayPal Payments Pro Payflow Edition</title><payment_action>Authorization</payment_action><cctypes>VI,MC,AE</cctypes><useccv>1</useccv><group>paypal</group><verify_peer>1</verify_peer><model>paypaluk/direct</model></paypaluk_direct><verisign><model>paypal/payflowpro</model><title>Payflow Pro</title><payment_action>Authorization</payment_action><cctypes>AE,VI</cctypes><useccv>1</useccv><tender>C</tender><verbosity>MEDIUM</verbosity><user backend_model="adminhtml/system_config_backend_encrypted"/><pwd backend_model="adminhtml/system_config_backend_encrypted"/><group>paypal</group><verify_peer>1</verify_peer></verisign><paypal_billing_agreement><active>1</active><allow_billing_agreement_wizard>1</allow_billing_agreement_wizard><model>paypal/method_agreement</model><title>PayPal Billing Agreement</title><group>paypal</group><verify_peer>1</verify_peer></paypal_billing_agreement><payflow_link><model>paypal/payflowlink</model><payment_action>Authorization</payment_action><verbosity>HIGH</verbosity><pwd backend_model="adminhtml/system_config_backend_encrypted"/><group>paypal</group><title>Credit Card</title><csc_required>1</csc_required><csc_editable>1</csc_editable><url_method>GET</url_method><email_confirmation>0</email_confirmation><verify_peer>1</verify_peer><mobile_optimized>0</mobile_optimized></payflow_link><payflow_advanced><model>paypal/payflowadvanced</model><payment_action>Authorization</payment_action><verbosity>HIGH</verbosity><pwd backend_model="adminhtml/system_config_backend_encrypted"/><group>paypal</group><title>Credit Card</title><partner>PayPal</partner><vendor>PayPal</vendor><user>PayPal</user><csc_required>1</csc_required><csc_editable>1</csc_editable><url_method>GET</url_method><email_confirmation>0</email_confirmation><verify_peer>1</verify_peer><mobile_optimized>0</mobile_optimized></payflow_advanced><hosted_pro><model>paypal/hostedpro</model><title>Payment by cards or by PayPal account</title><payment_action>Authorization</payment_action><group>paypal</group><display_ec>0</display_ec><verify_peer>1</verify_peer><mobile_optimized>0</mobile_optimized></hosted_pro><googlecheckout><active>1</active><model>googlecheckout/payment</model></googlecheckout><paypaluk_express_bml><model>paypaluk/bml</model><title>Paypal Credit</title><group>paypal</group></paypaluk_express_bml><authorizenet_directpost><active>0</active><cctypes>AE,VI,MC,DI</cctypes><cgi_url>https://secure.authorize.net/gateway/transact.dll</cgi_url><debug>0</debug><email_customer>0</email_customer><login backend_model="adminhtml/system_config_backend_encrypted"/><merchant_email/><model>authorizenet/directpost</model><order_status>processing</order_status><payment_action>authorize</payment_action><test>1</test><title>Credit Card Direct Post (Authorize.net)</title><trans_key backend_model="adminhtml/system_config_backend_encrypted"/><trans_md5 backend_model="adminhtml/system_config_backend_encrypted"/><allowspecific>0</allowspecific><currency>USD</currency><create_order_before>1</create_order_before></authorizenet_directpost><moneybookers_acc><group>mbookers</group><active>0</active><model>moneybookers/acc</model><title>Credit Card / Visa, Mastercard, AMEX, JCB, Diners</title><allowspecific>0</allowspecific></moneybookers_acc><moneybookers_csi><group>mbookers</group><active>0</active><model>moneybookers/csi</model><title>CartaSi</title><allowspecific>1</allowspecific><specificcountry>IT</specificcountry></moneybookers_csi><moneybookers_did><group>mbookers</group><active>0</active><model>moneybookers/did</model><title>Lastschrift (ELV)</title><allowspecific>1</allowspecific><specificcountry>DE</specificcountry></moneybookers_did><moneybookers_dnk><group>mbookers</group><active>0</active><model>moneybookers/dnk</model><title>Dankort</title><allowspecific>1</allowspecific><specificcountry>DK</specificcountry></moneybookers_dnk><moneybookers_ebt><group>mbookers</group><active>0</active><model>moneybookers/ebt</model><title>Nordea Solo</title><allowspecific>1</allowspecific><specificcountry>SE</specificcountry></moneybookers_ebt><moneybookers_ent><group>mbookers</group><active>0</active><model>moneybookers/ent</model><title>eNETS</title><allowspecific>1</allowspecific><specificcountry>SG</specificcountry></moneybookers_ent><moneybookers_gcb><group>mbookers</group><active>0</active><model>moneybookers/gcb</model><title>Carte Bleue</title><allowspecific>1</allowspecific><specificcountry>FR</specificcountry></moneybookers_gcb><moneybookers_gir><group>mbookers</group><active>0</active><model>moneybookers/gir</model><title>Giropay</title><allowspecific>1</allowspecific><specificcountry>DE</specificcountry></moneybookers_gir><moneybookers_idl><group>mbookers</group><active>0</active><model>moneybookers/idl</model><title>iDeal</title><allowspecific>1</allowspecific><specificcountry>NL</specificcountry></moneybookers_idl><moneybookers_lsr><group>mbookers</group><active>0</active><model>moneybookers/lsr</model><title>Laser</title><allowspecific>1</allowspecific><specificcountry>IE</specificcountry></moneybookers_lsr><moneybookers_mae><group>mbookers</group><active>0</active><model>moneybookers/mae</model><title>Maestro</title><allowspecific>1</allowspecific><specificcountry>GB,AT,ES</specificcountry></moneybookers_mae><moneybookers_npy><group>mbookers</group><active>0</active><model>moneybookers/npy</model><title>EPS Online-Überweisung</title><allowspecific>1</allowspecific><specificcountry>AT</specificcountry></moneybookers_npy><moneybookers_pli><group>mbookers</group><active>0</active><model>moneybookers/pli</model><title>POLi</title><allowspecific>1</allowspecific><specificcountry>AU</specificcountry></moneybookers_pli><moneybookers_psp><group>mbookers</group><active>0</active><model>moneybookers/psp</model><title>Postepay</title><allowspecific>1</allowspecific><specificcountry>IT</specificcountry></moneybookers_psp><moneybookers_pwy><group>mbookers</group><active>0</active><model>moneybookers/pwy</model><title>All Polish Banks</title><allowspecific>1</allowspecific><specificcountry>PL</specificcountry></moneybookers_pwy><moneybookers_sft><group>mbookers</group><active>0</active><model>moneybookers/sft</model><title>Sofortüberweisung</title><allowspecific>1</allowspecific><specificcountry>DE</specificcountry></moneybookers_sft><moneybookers_so2><group>mbookers</group><active>0</active><model>moneybookers/so2</model><title>Nordea Solo</title><allowspecific>1</allowspecific><specificcountry>FI</specificcountry></moneybookers_so2><moneybookers_wlt><group>mbookers</group><active>0</active><model>moneybookers/wlt</model><title>Moneybookers eWallet</title><allowspecific>0</allowspecific></moneybookers_wlt><moneybookers_obt><group>mbookers</group><active>0</active><model>moneybookers/obt</model><title>Onlineüberweisung (empfohlen)</title><allowspecific>1</allowspecific><specificcountry>GB,DE</specificcountry></moneybookers_obt></payment><sales_email><order><enabled>1</enabled><template>sales_email_order_template</template><guest_template>sales_email_order_guest_template</guest_template><identity>sales</identity><copy_method>bcc</copy_method></order><order_comment><enabled>1</enabled><template>sales_email_order_comment_template</template><guest_template>sales_email_order_comment_guest_template</guest_template><identity>sales</identity><copy_method>bcc</copy_method></order_comment><invoice><enabled>1</enabled><template>sales_email_invoice_template</template><guest_template>sales_email_invoice_guest_template</guest_template><identity>sales</identity><copy_method>bcc</copy_method></invoice><invoice_comment><enabled>1</enabled><template>sales_email_invoice_comment_template</template><guest_template>sales_email_invoice_comment_guest_template</guest_template><identity>sales</identity><copy_method>bcc</copy_method></invoice_comment><shipment><enabled>1</enabled><template>sales_email_shipment_template</template><guest_template>sales_email_shipment_guest_template</guest_template><identity>sales</identity><copy_method>bcc</copy_method></shipment><shipment_comment><enabled>1</enabled><template>sales_email_shipment_comment_template</template><guest_template>sales_email_shipment_comment_guest_template</guest_template><identity>sales</identity><copy_method>bcc</copy_method></shipment_comment><creditmemo><enabled>1</enabled><template>sales_email_creditmemo_template</template><guest_template>sales_email_creditmemo_guest_template</guest_template><identity>sales</identity><copy_method>bcc</copy_method></creditmemo><creditmemo_comment><enabled>1</enabled><template>sales_email_creditmemo_comment_template</template><guest_template>sales_email_creditmemo_comment_guest_template</guest_template><identity>sales</identity><copy_method>bcc</copy_method></creditmemo_comment></sales_email><sales_pdf><invoice><put_order_id>1</put_order_id></invoice><shipment><put_order_id>1</put_order_id></shipment><creditmemo><put_order_id>1</put_order_id></creditmemo></sales_pdf><dashboard><use_aggregated_data>0</use_aggregated_data></dashboard><cataloginventory><options><can_subtract>1</can_subtract><can_back_in_stock>1</can_back_in_stock><show_out_of_stock>0</show_out_of_stock><stock_threshold_qty>0</stock_threshold_qty><display_product_stock_status>1</display_product_stock_status></options><item_options><manage_stock>1</manage_stock><backorders>0</backorders><max_sale_qty>10000</max_sale_qty><min_sale_qty>1</min_sale_qty><min_qty>0</min_qty><notify_stock_qty>1</notify_stock_qty><enable_qty_increments>0</enable_qty_increments><qty_increments>1</qty_increments></item_options></cataloginventory><shipping><option><checkout_multiple>1</checkout_multiple><checkout_multiple_maximum_qty>100</checkout_multiple_maximum_qty></option><origin><country_id>US</country_id><postcode>90034</postcode><region_id>12</region_id></origin></shipping><carriers><flatrate><active>1</active><sallowspecific>0</sallowspecific><model>shipping/carrier_flatrate</model><name>Fixed</name><price>5.00</price><title>Flat Rate</title><type>I</type><specificerrmsg>This shipping method is currently unavailable. If you would like to ship using this shipping method, please contact us.</specificerrmsg><handling_type>F</handling_type></flatrate><freeshipping><active>0</active><sallowspecific>0</sallowspecific><cutoff_cost>50</cutoff_cost><model>shipping/carrier_freeshipping</model><name>Free</name><title>Free Shipping</title><specificerrmsg>This shipping method is currently unavailable. If you would like to ship using this shipping method, please contact us.</specificerrmsg></freeshipping><tablerate><active>0</active><sallowspecific>0</sallowspecific><condition_name>package_weight</condition_name><include_virtual_price>1</include_virtual_price><model>shipping/carrier_tablerate</model><name>Table Rate</name><title>Best Way</title><specificerrmsg>This shipping method is currently unavailable. If you would like to ship using this shipping method, please contact us.</specificerrmsg><handling_type>F</handling_type></tablerate><dhl><account/><active>0</active><sallowspecific>0</sallowspecific><allowed_methods>IE,E SAT,E 10:30AM,E,N,S,G</allowed_methods><contentdesc>Big Box</contentdesc><cutoff_cost/><dutypaymenttype>R</dutypaymenttype><free_method>G</free_method><gateway_url>https://eCommerce.airborne.com/ApiLandingTest.asp</gateway_url><id backend_model="adminhtml/system_config_backend_encrypted"/><model>usa/shipping_carrier_dhl</model><password backend_model="adminhtml/system_config_backend_encrypted"/><shipment_requesttype>0</shipment_requesttype><shipment_type>P</shipment_type><shipping_key backend_model="adminhtml/system_config_backend_encrypted"/><shipping_intlkey backend_model="adminhtml/system_config_backend_encrypted"/><title>DHL (Deprecated)</title><specificerrmsg>This shipping method is currently unavailable. If you would like to ship using this shipping method, please contact us.</specificerrmsg><unit_of_measure>LB</unit_of_measure><max_package_weight>150</max_package_weight><handling_type>F</handling_type><handling_action>O</handling_action><shipment_days>Mon,Tue,Wed,Thu,Fri,Sat</shipment_days><intl_shipment_days>Mon,Tue,Wed,Thu,Fri</intl_shipment_days><additional_protection_rounding>0</additional_protection_rounding></dhl><fedex><account backend_model="adminhtml/system_config_backend_encrypted"/><meter_number backend_model="adminhtml/system_config_backend_encrypted"/><key backend_model="adminhtml/system_config_backend_encrypted"/><password backend_model="adminhtml/system_config_backend_encrypted"/><sandbox_mode>0</sandbox_mode><shipment_requesttype>0</shipment_requesttype><active>0</active><sallowspecific>0</sallowspecific><allowed_methods>EUROPE_FIRST_INTERNATIONAL_PRIORITY,FEDEX_1_DAY_FREIGHT,FEDEX_2_DAY_FREIGHT,FEDEX_2_DAY,FEDEX_2_DAY_AM,FEDEX_3_DAY_FREIGHT,FEDEX_EXPRESS_SAVER,FEDEX_GROUND,FIRST_OVERNIGHT,GROUND_HOME_DELIVERY,INTERNATIONAL_ECONOMY,INTERNATIONAL_ECONOMY_FREIGHT,INTERNATIONAL_FIRST,INTERNATIONAL_GROUND,INTERNATIONAL_PRIORITY,INTERNATIONAL_PRIORITY_FREIGHT,PRIORITY_OVERNIGHT,SMART_POST,STANDARD_OVERNIGHT,FEDEX_FREIGHT,FEDEX_NATIONAL_FREIGHT</allowed_methods><cutoff_cost/><dropoff>REGULAR_PICKUP</dropoff><free_method>FEDEX_GROUND</free_method><handling>0</handling><model>usa/shipping_carrier_fedex</model><packaging>YOUR_PACKAGING</packaging><title>Federal Express</title><specificerrmsg>This shipping method is currently unavailable. If you would like to ship using this shipping method, please contact us.</specificerrmsg><max_package_weight>150</max_package_weight><handling_type>F</handling_type><handling_action>O</handling_action></fedex><ups><access_license_number backend_model="adminhtml/system_config_backend_encrypted"/><active>0</active><sallowspecific>0</sallowspecific><allowed_methods>1DM,1DML,1DA,1DAL,1DAPI,1DP,1DPL,2DM,2DML,2DA,2DAL,3DS,GND,GNDCOM,GNDRES,STD,XPR,WXS,XPRL,XDM,XDML,XPD,01,02,03,07,08,11,12,14,54,59,65</allowed_methods><origin_shipment>Shipments Originating in United States</origin_shipment><shipment_requesttype>0</shipment_requesttype><container>CP</container><cutoff_cost/><dest_type>RES</dest_type><free_method>GND</free_method><gateway_url>http://www.ups.com/using/services/rave/qcostcgi.cgi</gateway_url><gateway_xml_url>https://onlinetools.ups.com/ups.app/xml/Rate</gateway_xml_url><tracking_xml_url>https://onlinetools.ups.com/ups.app/xml/Track</tracking_xml_url><shipconfirm_xml_url>https://onlinetools.ups.com/ups.app/xml/ShipConfirm</shipconfirm_xml_url><shipaccept_xml_url>https://onlinetools.ups.com/ups.app/xml/ShipAccept</shipaccept_xml_url><handling>0</handling><model>usa/shipping_carrier_ups</model><pickup>CC</pickup><title>United Parcel Service</title><unit_of_measure>LBS</unit_of_measure><username backend_model="adminhtml/system_config_backend_encrypted"/><password backend_model="adminhtml/system_config_backend_encrypted"/><specificerrmsg>This shipping method is currently unavailable. If you would like to ship using this shipping method, please contact us.</specificerrmsg><min_package_weight>0.1</min_package_weight><max_package_weight>150</max_package_weight><handling_type>F</handling_type><handling_action>O</handling_action><negotiated_active>0</negotiated_active><mode_xml>1</mode_xml><type>UPS</type></ups><usps><active>0</active><sallowspecific>0</sallowspecific><allowed_methods>0_FCLE,0_FCL,0_FCP,1,2,3,4,6,7,13,16,17,22,23,25,27,28,33,34,35,36,37,42,43,53,55,56,57,61,INT_1,INT_2,INT_4,INT_6,INT_7,INT_8,INT_9,INT_10,INT_11,INT_12,INT_13,INT_14,INT_15,INT_16,INT_20,INT_26</allowed_methods><container>VARIABLE</container><cutoff_cost/><free_method/><gateway_url>http://production.shippingapis.com/ShippingAPI.dll</gateway_url><gateway_secure_url>https://secure.shippingapis.com/ShippingAPI.dll</gateway_secure_url><shipment_requesttype>0</shipment_requesttype><handling/><machinable>true</machinable><methods/><model>usa/shipping_carrier_usps</model><size>REGULAR</size><title>United States Postal Service</title><userid backend_model="adminhtml/system_config_backend_encrypted"/><password backend_model="adminhtml/system_config_backend_encrypted"/><isproduction>0</isproduction><specificerrmsg>This shipping method is currently unavailable. If you would like to ship using this shipping method, please contact us.</specificerrmsg><max_package_weight>70</max_package_weight><handling_type>F</handling_type><handling_action>O</handling_action></usps><dhlint><model>usa/shipping_carrier_dhl_international</model><account/><active>0</active><title>DHL</title><sallowspecific>0</sallowspecific><nondoc_methods>1,3,4,8,P,Q,E,F,H,J,M,V,Y</nondoc_methods><doc_methods>2,5,6,7,9,B,C,D,U,K,L,G,W,I,N,O,R,S,T,X</doc_methods><free_method>G</free_method><gateway_url>https://xmlpi-ea.dhl.com/XMLShippingServlet</gateway_url><id backend_model="adminhtml/system_config_backend_encrypted"/><password backend_model="adminhtml/system_config_backend_encrypted"/><shipment_type>N</shipment_type><specificerrmsg>This shipping method is currently unavailable. If you would like to ship using this shipping method, please contact us.</specificerrmsg><divide_order_weight>1</divide_order_weight><unit_of_measure>K</unit_of_measure><size>R</size><handling_type>F</handling_type><handling_action>O</handling_action><shipment_days>Mon,Tue,Wed,Thu,Fri</shipment_days></dhlint></carriers><promo><auto_generated_coupon_codes><length>12</length><format>1</format></auto_generated_coupon_codes></promo><checkout><options><onepage_checkout_enabled>1</onepage_checkout_enabled><guest_checkout>1</guest_checkout></options><cart><delete_quote_after>30</delete_quote_after><redirect_to_cart>1</redirect_to_cart><grouped_product_image>itself</grouped_product_image><configurable_product_image>parent</configurable_product_image></cart><cart_link><use_qty>1</use_qty></cart_link><sidebar><display>1</display><count>3</count></sidebar><payment_failed><identity>general</identity><reciever>general</reciever><template>checkout_payment_failed_template</template></payment_failed></checkout><paypal><bncode>Magento_Cart_Community</bncode><style><logo>nowAccepting_150x60</logo></style><wpp><api_password backend_model="adminhtml/system_config_backend_encrypted"/><api_signature backend_model="adminhtml/system_config_backend_encrypted"/><api_username backend_model="adminhtml/system_config_backend_encrypted"/><button_flavor>dynamic</button_flavor></wpp><wpuk><user backend_model="adminhtml/system_config_backend_encrypted"/><pwd backend_model="adminhtml/system_config_backend_encrypted"/></wpuk><fetch_reports><ftp_login backend_model="adminhtml/system_config_backend_encrypted"/><ftp_password backend_model="adminhtml/system_config_backend_encrypted"/><schedule>1</schedule><time>00,00,00</time></fetch_reports></paypal><log><visitor><online_update_frequency>60</online_update_frequency></visitor></log><reports><dashboard><ytd_start>1,1</ytd_start><mtd_start>1</mtd_start></dashboard></reports><tax><classes><shipping_tax_class/></classes><calculation><algorithm>TOTAL_BASE_CALCULATION</algorithm><apply_after_discount>1</apply_after_discount><discount_tax>0</discount_tax><based_on>shipping</based_on><price_includes_tax>0</price_includes_tax><shipping_includes_tax>0</shipping_includes_tax><apply_tax_on>0</apply_tax_on></calculation><defaults><country>US</country><region>0</region><postcode>*</postcode></defaults><display><type>1</type><shipping>1</shipping></display><cart_display><price>1</price><subtotal>1</subtotal><shipping>1</shipping><discount>1</discount><grandtotal>0</grandtotal><full_summary>0</full_summary><zero_tax>0</zero_tax></cart_display><sales_display><price>1</price><subtotal>1</subtotal><shipping>1</shipping><discount>1</discount><grandtotal>0</grandtotal><full_summary>0</full_summary><zero_tax>0</zero_tax></sales_display><notification><url>http://www.magentocommerce.com/knowledge-base/entry/magento-ce-18-ee-113-tax-calc</url></notification><weee><enable>0</enable><display>0</display><display_list>0</display_list><display_sales>0</display_sales><display_email>0</display_email><discount>0</discount><apply_vat>0</apply_vat><include_in_subtotal>0</include_in_subtotal></weee></tax><wishlist><general><active>1</active></general><email><email_identity>general</email_identity><email_template>wishlist_email_email_template</email_template></email></wishlist><contacts><contacts><enabled>1</enabled></contacts><email><recipient_email>hello@example.com</recipient_email><sender_email_identity>custom2</sender_email_identity><email_template>contacts_email_email_template</email_template></email></contacts><sendfriend><email><enabled>1</enabled><template>sendfriend_email_template</template><allow_guest>0</allow_guest><max_recipients>5</max_recipients><max_per_hour>5</max_per_hour><check_by>0</check_by></email></sendfriend><sitemap><page><priority>0.25</priority><changefreq>daily</changefreq></page><category><priority>0.5</priority><changefreq>daily</changefreq></category><product><priority>1</priority><changefreq>daily</changefreq></product><generate><enabled>0</enabled><error_email/><error_email_template>sitemap_generate_error_email_template</error_email_template><error_email_identity>general</error_email_identity></generate><blog><changefreq>weekly</changefreq><priority>0.5</priority></blog></sitemap><api><config><charset>UTF-8</charset><session_timeout>3600</session_timeout><compliance_wsi>0</compliance_wsi><wsdl_cache_enabled>0</wsdl_cache_enabled></config></api><oauth><cleanup><cleanup_probability>100</cleanup_probability><expiration_period>120</expiration_period></cleanup><email><identity>general</identity><template>oauth_email_template</template></email></oauth><captcha translate="label"><fonts><linlibertine><label>LinLibertine</label><path>lib/LinLibertineFont/LinLibertine_Bd-2.8.1.ttf</path></linlibertine></fonts><frontend><areas><user_create><label>Create user</label></user_create><user_login><label>Login</label></user_login><user_forgotpassword><label>Forgot password</label></user_forgotpassword><guest_checkout><label>Checkout as Guest</label></guest_checkout><register_during_checkout><label>Register during Checkout</label></register_during_checkout></areas></frontend><backend><areas><backend_login><label>Admin Login</label></backend_login><backend_forgotpassword><label>Admin Forgot Password</label></backend_forgotpassword></areas></backend></captcha><configswatches><general><enabled>1</enabled><swatch_attributes>92,155</swatch_attributes><product_list_attribute>92</product_list_attribute><product_list_price_change>0</product_list_price_change></general><product_detail_dimensions><width>28</width><height>28</height></product_detail_dimensions><product_listing_dimensions><width>22</width><height>22</height></product_listing_dimensions><layered_nav_dimensions><width>28</width><height>28</height></layered_nav_dimensions></configswatches><newsletter><subscription><allow_guest_subscribe>1</allow_guest_subscribe><confirm>0</confirm><confirm_email_identity>support</confirm_email_identity><confirm_email_template>newsletter_subscription_confirm_email_template</confirm_email_template><success_email_identity>general</success_email_identity><success_email_template>newsletter_subscription_success_email_template</success_email_template><un_email_identity>support</un_email_identity><un_email_template>newsletter_subscription_un_email_template</un_email_template></subscription><sending><set_return_path>0</set_return_path></sending></newsletter><persistent><options><enabled>0</enabled><lifetime>31536000</lifetime><remember_enabled>1</remember_enabled><remember_default>1</remember_default><logout_clear>1</logout_clear><shopping_cart>1</shopping_cart></options></persistent><blog><blog><enabled>1</enabled><title>Blog</title><footerEnabled>1</footerEnabled><menuRight>1</menuRight><topEnabled>1</topEnabled><blogcrumbs>1</blogcrumbs><recent>5</recent><dateformat>full</dateformat><layout>page/2columns-right.phtml</layout><comments>1</comments><useshortcontent>1</useshortcontent><rss>1</rss><rssimage>images/BlogLogo.png</rssimage><parse_cms>1</parse_cms><categories_urls>1</categories_urls><route/><keywords/><description/><readmore/><perpage>3</perpage><bookmarkspost>1</bookmarkspost><bookmarkslist>0</bookmarkslist><sorter>DESC</sorter></blog><comments><page_count>3</page_count><enabled>1</enabled><login>1</login><approval>0</approval><loginauto>0</loginauto><recipient_email/><sender_email_identity>general</sender_email_identity><email_template>blog_comments_email_template</email_template></comments><menu><category>1</category><tagcloud_size>10</tagcloud_size><left>2</left><right>2</right><footer>0</footer><top>0</top><recent>4</recent></menu><recaptcha><enabled>0</enabled><publickey/><privatekey/></recaptcha><rss><enable>0</enable><image/><posts/></rss></blog><advancedsearch><general><enabled>1</enabled><select_category_on_category_pages>1</select_category_on_category_pages><show_subcategories>1</show_subcategories><indentation_text>- </indentation_text></general></advancedsearch><advancedreports><general><active>1</active><enable_google_charts>1</enable_google_charts></general></advancedreports><ajaxcart><general><active>1</active></general></ajaxcart><brand><general><add_to_toplinks>1</add_to_toplinks><title_link>Shop By Brand</title_link></general><widget><load_jquery>1</load_jquery><load_slider>1</load_slider></widget><page><url_key>shop-by-brand</url_key><title>Shop By Brand</title><template_list>1column</template_list><template_view>1column</template_view><layered_navigation_view>top-left</layered_navigation_view><icon_width>150</icon_width><icon_height>150</icon_height><image_width>800</image_width><image_height>500</image_height><show_breadcrumbs>1</show_breadcrumbs><meta_keywords/><meta_description/><description>&lt;p&gt;With the Fusion Backpack strapped on, every trek is an adventure - even a bus ride to work. That&apos;s partly because two large zippered compartments store everything you need, while a front zippered pocket and side mesh pouches are perfect for stashing those little extras, in case you change your mind and take the day off.&lt;/p&gt;</description></page><product><show_brand>1</show_brand><show_related_products>1</show_related_products><related_products_limit>8</related_products_limit><related_products_sort_by>random</related_products_sort_by><related_products_sort_dir>asc</related_products_sort_dir></product></brand><deals><general><enabled>1</enabled><link>0</link><update>order</update><show_in_list>0</show_in_list></general><deals_page><title>Daily Deals</title><breadcrumbs>1</breadcrumbs><grid_per_page_values>5,10,20</grid_per_page_values><all>1</all><meta_keyword/><meta_description/></deals_page></deals><event><general><active>1</active><router>event</router></general></event><lookbook><active><enabled>1</enabled></active><general><min_image_width>300</min_image_width><min_image_height>400</min_image_height><max_image_width>1920</max_image_width><max_image_height>1360</max_image_height><max_upload_filesize>2097152</max_upload_filesize><allowed_extensions>jpg,jpeg,png,gif</allowed_extensions><pin_width>40</pin_width><pin_height>40</pin_height><pin_default>+</pin_default><pin_price>1</pin_price><pin_background>65affa</pin_background><pin_text>ffffff</pin_text><popup_image_width>230</popup_image_width><popup_image_height>290</popup_image_height></general><slider><navigation>1</navigation><auto_play>1</auto_play><auto_play_timeout>5000</auto_play_timeout><stop_auto>1</stop_auto><loop>1</loop><next_image>&lt;i class=&quot;pe-7s-angle-right&quot;&gt;&lt;/i&gt;</next_image><prev_image>&lt;i class=&quot;pe-7s-angle-left&quot;&gt;&lt;/i&gt;</prev_image><pagination>0</pagination></slider></lookbook><maintanance><general><allowforadmin>1</allowforadmin><logFileName>mgs_maintenance.log</logFileName><maintenanceHtml>
+                &lt;div id=&quot;header&quot; class=&quot;clearfix&quot;&gt;
+                &lt;div class=&quot;container&quot;&gt;
+                &lt;h2&gt;We are sorry, this site is down for maintenance&lt;/h2&gt;
+                &lt;p&gt;Lorem ipsum dolor sit amet, mea porro commodo delectus ad, malorum ceteros aliquando cu sit. Menandri partiendo salutatus sed te, ne gubergren ullamcorper ius. Sit purto justo ei. Ut affert fabellas eam, ius oblique moderatius eu, quo at clita omnes volumus.&lt;/p&gt;
+                &lt;/div&gt;
+                &lt;/div&gt;       
+                </maintenanceHtml></general></maintanance><megamenu><general><enabled>1</enabled><home>1</home><hometext>AIK</hometext><max_column>5</max_column><homeposition>45</homeposition><logo>1</logo></general></megamenu><mpanel><catalog><product_per_row>4</product_per_row><picture_ratio>4</picture_ratio><new_label>New</new_label><sale_label>Sale</sale_label><price_slider>1</price_slider><more_view>1</more_view><layout>one_column</layout><product_layout>one_column</product_layout><featured>featured_product</featured><hot>best_seller</hot><max_width_image>400</max_width_image><max_width_image_detail>600</max_width_image_detail><preload>0</preload><hide_add_to_cart_button>0</hide_add_to_cart_button><wishlist_button>0</wishlist_button><compare_button>0</compare_button><disable_hover_effect>0</disable_hover_effect></catalog><twitter><twitter_title>Latest Tweet</twitter_title><twitter_count>2</twitter_count></twitter><product_details><email_friend>1</email_friend><reviews_summary>1</reviews_summary><alert_urls>1</alert_urls><wishlist_compare>1</wishlist_compare><short_description>1</short_description><upsell_products>1</upsell_products><sku>1</sku><brand_image>1</brand_image><brand_products>1</brand_products><detail_template_layout>0</detail_template_layout><item_per_row>4</item_per_row><disable_zoom_detail>1</disable_zoom_detail></product_details><product_tabs><show_description>1</show_description><position_description>0</position_description><show_additional>0</show_additional><position_additional>1</position_additional><show_reviews>1</show_reviews><position_reviews>4</position_reviews><show_product_tag_list>1</show_product_tag_list><position_product_tag_list>3</position_product_tag_list><show_custom_tab_one>1</show_custom_tab_one><show_custom_tab_two>0</show_custom_tab_two><show_custom_tab_three>0</show_custom_tab_three><show_product_questions>1</show_product_questions><custom_tab_one>static</custom_tab_one><custom_tab_one_identifier_value>claue_custom_static_block_product_tab</custom_tab_one_identifier_value><custom_tab_one_attribute_code_value/><custom_tab_one_title>Custom Tab</custom_tab_one_title><position_custom_tab_one>3</position_custom_tab_one><custom_tab_two/><custom_tab_two_identifier_value/><custom_tab_two_attribute_code_value/><custom_tab_two_title/><position_custom_tab_two/><custom_tab_three/><custom_tab_three_identifier_value/><custom_tab_three_attribute_code_value/><custom_tab_three_title/><position_custom_tab_three/><product_questions_title>Product Questions</product_questions_title><position_product_questions>5</position_product_questions><detail_template_layout>1</detail_template_layout><description>1</description><aditional>1</aditional><reviews>1</reviews><tags>1</tags></product_tabs><general><enabled>1</enabled><account>artof777@gmail.com</account><themepack>mgstheme</themepack></general><catalogsearch><layout/><product_per_row/><picture_ratio/></catalogsearch><contact><enabled>1</enabled><address>70 Cedar Street, New York</address><html>&lt;h4&gt;Claue Store&lt;/h4&gt;&lt;span&gt;New York&lt;/span&gt;&lt;br&gt;NY, United States &lt;br&gt;+0123456789&lt;p&gt;&lt;/p&gt;</html><image>default/claue_pin.png</image><apikey>AIzaSyDpxmpFLGKh6Ad23IS_ZP1rpxdagVhZnjQ</apikey></contact><my_account><layout>two_columns_left</layout><disable_address>0</disable_address><disable_my_order>0</disable_my_order><disable_billing_agreements>0</disable_billing_agreements><disable_recurring_profiles>0</disable_recurring_profiles><disable_my_reviews>0</disable_my_reviews><disable_my_tags>1</disable_my_tags><disable_my_wishlist>0</disable_my_wishlist><disable_my_applications>0</disable_my_applications><disable_newsletter_subscriptions>0</disable_newsletter_subscriptions><disable_downloadable_products>0</disable_downloadable_products><disable_product_questions>0</disable_product_questions></my_account><share_this><category>0</category><product>0</product><blog_list>0</blog_list><blog_detail>0</blog_detail><span_tags/><script_tags/></share_this><breadcrumb><breadcrumbactive>0</breadcrumbactive><breadcrumbtype/><bgbreadcrumb>image</bgbreadcrumb><breadcrumbcolor>#f6f6f8</breadcrumbcolor><breadcrumbimage/></breadcrumb><popup_newsletter><enabled>0</enabled><html>&lt;h5&gt;Sign up our newsletter and save 25% off for the next purchase!&lt;/h5&gt;&lt;p&gt; Subscribe to our newsletters and don’t miss new arrivals, the latest fashion updates and our promotions.&lt;/p&gt;</html><width>530</width><height>503</height><background>default/bg_title.jpg</background><title>Sign Up Newsletter</title><bottom_text>Your Information will never be shared with any third party.</bottom_text></popup_newsletter></mpanel><mgs_theme><general><page_width>width1366</page_width><layout>boxed</layout><layout_style>light</layout_style><header>header4</header><footer>footer</footer><back_to_top>1</back_to_top><sticky_menu>1</sticky_menu><preloader>1</preloader><snippets>0</snippets><custom_css>1</custom_css><popup_newsletter>0</popup_newsletter><right_to_left>0</right_to_left><lazy_load_img>1</lazy_load_img><logo>default/logo_12.png</logo></general><background><bg_color>rgba(0, 0, 0, 0)</bg_color><bg_image/><bg_repeat>repeat</bg_repeat><bg_position_x>left</bg_position_x><bg_position_y>top</bg_position_y><bg_upload/></background><fonts><font>Oswald</font><font_size/><h1>Lora</h1><h1_fontsize/><h2>Lora</h2><h2_fontsize/><h3>Lora</h3><h3_fontsize/><h4>Lora</h4><h4_fontsize/><h5>Lora</h5><h5_fontsize/><h6>Lora</h6><h6_fontsize/><price>Lora</price><price_fontsize/><menu>Lora</menu><menu_fontsize/><custom_class>Array</custom_class><custom_font>PT+Serif</custom_font><custom_fontsize/></fonts><custom_style><font_name>Montserrat</font_name><style>@font-face{
+font-family: AvenirNextLTPro-MediumCn;
+src: url(&quot;/skin/frontend/mgstheme/claue/fonts/AvenirNextLTPro-MediumCn.otf&quot;);
+}
+body{font-family: &apos;Montserrat&apos;, sans-serif;}
+
+ul.product-info, .static-block-top, .product-view &gt; .tabbable.product-tab-mode, .product-view &gt; .tabbable.product-accordion-mode, .user-middle-name, .short-description, .reviews-box{display: none;}
+.fieldset h4 {
+    display: none;
+}
+.box-account.box-recent  a.action.btn.btn-xs.btn-default {margin-bottom: 30px;}
+.panel-group {margin-top: 20px;}
+.block-title {
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e2e2e2;
+}
+.col2-set.col-md-6.col-sm-6.col-xs-12:nth-child(1) {
+    border-right: 1px solid #e2e2e2;
+}
+.aik-section-title-main {
+    border-bottom: 1px solid #e2e2e2;
+    display: block;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.aik-collection-discover-btn{
+font-size: 12px;
+letter-spacing: 2px;
+}
+.container p {
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.std {
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.logo-container a:hover {
+    color: #333 !important;
+}
+
+
+.search-form {
+    position: relative;
+    right: 23px;
+}
+.mega-menu .nav-main .dropdown-menu li ul li a:hover {
+    color: #878787;
+}
+.lawn-20-spacing {
+    margin-top: 15px;
+    display: inline-block;
+}
+.new-this-month-spacing {
+    margin-top: 44px;
+}
+.aik-shop-sub-meu-title-spacing-v01 {
+    font-size: 10px;
+
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-right: 7%;
+    color: #333;
+}
+.aik-shop-sub-meu-title-spacing-v01:hover{
+color: #878787;
+transition: all 0.3s linear;
+}
+.aik-shop-sub-meu-title {
+    text-transform: uppercase;
+    font-size: 10px;
+    display: inline-block;
+    margin-bottom: 10px !important;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #e2e2e2;
+    padding-right: 50%;
+    color: #333;
+}
+
+.aik-shop-sub-meu-title:hover {color: #878787; transition: all 0.3s linear;} 
+
+.aik-shop-sub-meu-title-spacing-v2 {
+    font-size: 10px;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #e2e2e2;
+    text-transform: uppercase;
+    padding-right: 10%;
+    display: inline-block;
+    margin-top: 15px !important;
+    color: #333;
+}
+.aik-shop-sub-meu-title-spacing-v2:hover{
+color: #878787;
+transition: all 0.3s linear;
+}
+.aik-shop-sub-meu-title-spacing-v3 {
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #e2e2e2;
+    padding-right: 26%;
+    display: inline-block;
+    margin-top: 15px !important;
+    color: #333;
+}
+.aik-shop-sub-meu-title-spacing-v3:hover {
+color: #878787;
+transition: all 0.3s linear;
+}
+.pe-7s-shopbag:before, .pe-7s-user:before{display: none;}
+.block-cart-header .trigger-open-cart .pe-7s-shopbag {background-image: url(&apos;/media/mpanel/default/add-to-bag.png&apos;);
+background-size: 40px 24px;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-color: transparent;
+    background-clip: border-box;
+    position: relative;
+    top: 14px;
+    left: -23px;
+}
+
+.account-dropdown .pe-7s-user{
+background-image: url(&apos;/media/mpanel/default/user-icon.png&apos;);
+background-size: 27px 20px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-color: transparent;
+    background-clip: border-box;
+    position: relative;
+    top: 9px;
+}
+.block-cart-header .trigger-open-cart .count{
+top: 18px;
+right: 10px;
+color: #333;
+background-color: transparent;
+}
+section.aik-home-explore-collection {
+    display: block;
+    overflow: hidden;
+    height: 90vh;
+}
+
+p.aik-explore-collection {
+    text-align: center;
+    vertical-align: bottom;
+    margin-top: 70vh;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.buttons-set a, .label, label, ul li a{font-size: 12px; text-transform: uppercase;
+    letter-spacing: 2px; }
+.aik-world-services.col-md-4 ul li a, .aik-world-the-house.col-md-4 ul li a, .aik-world-services.col-md-4 ul li a, .aik-world-the-house.col-md-4 ul li a{padding-left: 0 !important}
+.collapse.in,  {
+    padding-bottom: 20px;
+}
+li.eeeeeeeeeeeeeeeeeeee a {
+    padding-left: 0px !important;
+}
+.aik-world-aik-feed-image-grid.col-md-6 {
+    padding: 0;
+}
+.aik-world-aik-feed-text.col-md-6 p {
+    font-size: 10px;
+    padding-top: 7px;
+    letter-spacing: 2px;
+}
+.mega-menu .nav-main .mega-menu-fullwidth .dropdown-menu{max-width: 100%;}
+.aik-social-feeds h6{margin-bottom: 20px; font-size: 14px; font-weight: 500; letter-spacing: 1px;}
+.my-account h3, .my-account h4 {
+    font-size: 12px;
+    color: #333;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+p{letter-spacing: 1px;}
+.account-nav .items li {
+    border-bottom: 1px solid #f0f0f0;
+    padding: 2px 0 2px;
+    letter-spacing: 1px;
+}
+button#send2 {
+    display: block;
+    margin-bottom: 8px;
+}
+.account-login h2, .account-create h2 {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #333;
+    margin: 0 0 10px;
+    letter-spacing: 1.7px;
+}
+.panel-group .panel-heading{padding: 0px 0px !important;
+font-weight: 600;
+ }
+.panel-body {
+    padding: 15px 0px;
+}
+.panel-title{font-size: 14px;}
+.aik-faq-accor-sub-heading {
+    border-bottom: 1px solid #e2e2e2;
+    margin-bottom: 10px !important;
+    padding-bottom: 2px;
+    color: #333;
+}
+a:hover, a:focus, a:active{color: #333}
+.aik-page-sidebar-quick-links {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.aik-page-sidebar-quick-links li{
+border-bottom: 1px solid #e2e2e2;
+padding-bottom: 2px;
+padding-top: 2px;
+}
+.aik-content-title {
+    padding-left: 15%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #333;
+}
+.aik-content-title-main{
+     display: block;
+     padding-left: 50px;
+}
+.aik-content-title-sub{
+     display: block;
+}
+
+.mega-menu .nav-main .dropdown-menu li ul li a{
+font-size: 10px;
+letter-spacing: 2px;
+line-height: 0.7;
+text-transform: uppercase;
+color: #333;
+}
+.breadcrumbs{
+font-size: 12px;
+letter-spacing: 2px;
+text-transform: uppercase;
+margin-top: 19px;
+}
+.block-footer-newsletter .actions{top: 2px;}
+.footer .middle-footer{padding: 40px 0;}
+.revolution-slider-container .btn {
+border: none;
+text-transform: uppercase;
+letter-spacing: 3px;
+line-height: 32px;
+}
+.btn-o-w:hover, .btn-o-w:focus, .btn-o-w:active{
+color: #333;
+background-color: #fff;
+transition: all 0.3s ease !important;
+}
+li.aik-sub-section.mega-menu-item.mega-menu-fullwidth.static-menu:hover{text-decoration: underline;}
+span.header-top-center-textual-log-text{
+font-size: 30px;
+letter-spacing: 15px;
+font-family: AvenirNextLTPro-MediumCn;
+font-weight:100;
+}
+ul#mainMenu{padding-top: 10px;}
+.mega-menu .nav-main &gt; li &gt; a{font-weight: bolder !important; font-size: 12px; letter-spacing: 4px; line-height: 20px;}
+span.header-top-right-search-text{
+letter-spacing: 1px;
+text-transform: uppercase;
+font-size: 10px;
+}
+
+.dropdown-sm .dropdown-menu li a{color: #333; font-size: 10px;}
+
+.social-block ul li a:hover{color: #878787}
+
+.page-title-wrapper{display: none;}
+a{
+color: #333;
+transition: all 0.3s linear;
+}
+.header-contact a{color: #333}
+
+.breadcrumbs ul &gt; li a:hover, .header-contact a:hover{color: #878787}
+.block-link ul li a:hover, .block-link ul li a:focus{
+color: #333;
+}
+
+.search-form .action-search:hover [class*=&quot;pe-&quot;], .account-dropdown .dropdown-toggle:hover [class*=&quot;pe-&quot;], .block-cart-header .trigger-open-cart:hover [class*=&quot;pe-&quot;], .wishlist-link a:hover [class*=&quot;pe-&quot;]:hover{color: #878787}
+
+.dropdown-sm .dropdown-menu li a:hover{color: #878787}
+
+.checkout-cart-title{padding: 2.5px;}
+
+a:hover{
+color: #878787;
+}
+
+.aik-Instagram-feed {
+    display: flex;
+    justify-content: center;
+}
+
+
+.push-menu .mega-menu .nav-main li.active &gt; a, .push-menu .mega-menu .nav-main li.active &gt; a:hover, .push-menu .mega-menu .nav-main li.active &gt; a:focus, .push-menu .mega-menu .nav-main li a:hover, .mega-menu .nav-main &gt; li &gt; a:hover, .mega-menu .nav-main &gt; li &gt; a:focus, .mega-menu .nav-main &gt; li.active &gt; a, .mega-menu .nav-main &gt; li.active &gt; a:hover, .mega-menu .nav-main &gt; li.active &gt; a:focus, .aik-main-cat-sub-section li a:hover {
+color: #878787;
+}
+h4 {font-family: &apos;Montserrat&apos;, sans-serif; font-size: 12px; letter-spacing: 2px;}
+.footer .middle-footer h6 {
+    font-size: 12px;
+    margin-bottom: 11px;
+    color: #333;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+    font-weight: 600;
+    font-family: &apos;Montserrat&apos;, sans-serif;
+}
+.block-link ul li{
+line-height: 17px;
+margin-bottom: 0px;
+}
+
+.mega-menu .nav-main li .dropdown-menu li ul.sub-menu li a {
+    line-height: 22px;
+    font-size: 11px;
+    letter-spacing: 1px;
+    color: #303030;
+    transition: color 0.3s linear;
+}
+
+.mega-menu .nav-main li .dropdown-menu li ul.sub-menu li a:hover{
+color: #878787;
+}
+
+input[type=&quot;text&quot;], input[type=&quot;password&quot;], input[type=&quot;url&quot;], input[type=&quot;tel&quot;], input[type=&quot;search&quot;], input[type=&quot;number&quot;], input[type=&quot;datetime&quot;], input[type=&quot;email&quot;]{
+height: 30px;
+letter-spacing: 1px;
+}
+
+.block-link ul li a {
+    color: #878787;
+    width: 100%;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+.hotspot-modal--frontend .product-images-slide img {
+    width: 598px !important;
+}
+
+.dropdown-sm .dropdown-menu {
+    max-height: 306px;
+    overflow-y: hidden;
+}
+.header.header-v1 .mega-menu .nav-main .mega-menu-fullwidth.custom-col-2.hover-right{
+	position: relative !important;
+}
+.header.header-v1 .mega-menu .nav-main .mega-menu-fullwidth.custom-col-2.hover-right .dropdown-menu{
+	left: 0;
+}
+@media (max-width: 1199px){
+	.mega-menu .nav-main .mega-menu-fullwidth.custom-col-2.hover-right{position: relative}
+}
+@media(max-width: 999px){
+section.mega-menu-content{
+width:230px;
+margin: 0 auto;
+}
+.aik-collections-discover-mgs, ul.aik-collections-mgs {
+flex-direction: column;
+padding: 0 26px;`
+}
+.push-menu .mega-menu .nav-main .dropdown-menu li ul li a{
+color: #333;
+transition: color 0.3s linear;
+}
+.push-menu .mega-menu .nav-main .dropdown-menu li ul li a:hover{color: #878787}
+}
+.swatch-item-color-black{
+	background-color: #000;
+}
+.header .top-bar{
+background-color: #fff;
+}
+.header .logo-container{
+padding: 20px 0 0 0;
+}
+@keyframes aik-logo-scatter {
+0% { opacity: 0;
+transform: translateX(50px);
+}
+100% {
+opacity: 1;
+transform: translate(15px);
+}
+}
+
+.header-v4 .header-menu{
+border-top: none;
+}
+.header .header-content{
+max-height: 71px;
+}
+.mega-menu .nav-main .dropdown-menu li ul li:not(:last-child){
+border-bottom: none !important;
+}
+a.logo.logo-header{
+display: none !important;
+}
+
+span.mega-menu-sub-title {
+    display: block;
+    border-bottom: 1px solid #e2e2e2;
+    padding-bottom: 1px;
+    font-size: 10px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #333;
+    margin-bottom: 13px;
+}
+.aik-collections-discover {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.col-md-12.aik-collections-discover {
+    text-align: center;
+    margin-top: 25px;
+}
+li.aik-sub-section{text-align: center; width: 34%; border-right: 1px solid #e2e2e2; padding-bottom: 21px;}
+ul#mainMenu li.aik-sub-section:nth-child(n + 3){ border-right: none;}
+
+.aik-main-cat-sub-section ul{display: flex; justify-content: center;}
+
+
+span.aik-main-cat-sub-section ul li{
+border-right: 1px solid #e2e2e2;
+padding: 0 20px;
+text-transform: uppercase;
+}
+
+span.aik-main-cat-sub-section ul li:nth-child(n + 4){display: none;}
+span.aik-main-cat-sub-section ul li:nth-child(n + 3){border-right: none}
+@media (max-width: 768px){
+.aik-main-cat-sub-section{ display: none}
+}
+.header-v4 .header-menu .container{padding-bottom: 15px;}
+.logo-footer, .social-block{display: flex; justify-content: center}
+.mega-menu .nav-main li .dropdown-menu li ul.sub-menu li a, .mega-menu .nav-main &gt; li &gt; a {text-transform: uppercase; padding: 0}
+span#design-footer-copyright-text
+{
+display: flex; 
+justify-content: center;
+color: #878787;
+letter-spacing: 2px;
+font-size: 10px;
+}
+.block-content{
+#footer-v1 .text-transform: uppercase;
+}
+
+#footer-v1 .block-content{
+text-transform: uppercase;
+}
+
+
+
+/* head sticky*/
+header {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 999;
+    min-height: 110px;
+}
+
+section#after-header {
+    position: relative;
+    width: 100%;
+    background-color: white;
+    z-index: 999999;
+}
+
+#maincontent {
+    padding-top: 110px;
+}
+
+a.collections-cat-thumbnail-desciption {
+    position: static;
+    top: -60px;
+    background-color: #333;
+    opacity: 0.9;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+.aik-collections-discover-mgs, ul.aik-collections-mgs{display: flex; justify-content: center;}
+.aik-collections-discover-mgs button.button.btn.btn-default {
+    border-radius: unset;
+    width: 268px;
+    border: 1px solid #878787;
+    text-transform: uppercase;
+    height: 42px;
+    background-color: #f6f6f8
+}button.button.btn.btn-default:hover{color: #878787}
+.login-link a{color: #333}
+.product-view .tabbable.product-tab-mode .nav-tabs li a, .add_item_actions .btn-shop .btn-cart, .add_item_actions .btn-shop .btn-update-cart, .add_item_actions .form-group, .toolbar .view-mode strong.view-type, .toolbar .view-mode .view-type:hover, .toolbar .sort-by a:hover, .toolbar .limiter select, .toolbar .sort-by select, .block-footer-newsletter .input-box input.form-control, .btn
+{
+border-radius: unset !important;
+}
+ul#mobile-menu-32{background: transparent; box-shadow: none;}
+.aik-collections-mgs-a{padding: 0 !important;}
+.aik-collections-mgs-span a {
+    background-color: #fff;
+    color: #878787 !important;
+    text-transform: uppercase;
+    font-size: 10px !important;
+    letter-spacing: 2px;
+    padding: 20px 15px !important;
+}
+span.aik-collections-mgs-span a:hover {
+    color: #333 !important;
+}
+/*aik world*/
+
+.aik-world-mgs {
+    display: flex;
+    justify-content: center;
+}
+.aik-world-mgs div {
+    width: 32.5%;
+}
+a.shop-submenu-all-level-style{text-decoration: underline; color: #222;}
+
+.aik-main-cat-sub-section li a
+{
+padding: 0 9px; 
+border-right: 1px solid #e2e2e2; 
+text-transform: uppercase;
+font-size: 10px;
+letter-spacing: 1px;
+color: #222;
+}
+.col-md-4.col-sm-6.col-xs-12.aik-main-cat-sub-section{margin-top: -23px;}
+.aik-main-cat-sub-section li:last-child a{border-right: none}
+em.pe-7s-call {
+    font-size: 17px;
+    padding-top: 15px;
+}
+
+span.__cf_email__ {
+    font-size: 17px;
+}
+.search-form .action-search [class*=&quot;pe-&quot;], .account-dropdown .dropdown-toggle [class*=&quot;pe-&quot;], .block-cart-header .trigger-open-cart [class*=&quot;pe-&quot;], .wishlist-link a [class*=&quot;pe-&quot;]{font-size: 17px;}
+</style><ttf>Montserrat-Regular.ttf</ttf></custom_style><color><theme_color>orange</theme_color></color></mgs_theme><oscheckout><general><enabled>1</enabled><checkout_title>Onestep Checkout</checkout_title><checkout_link>Checkout</checkout_link></general><registration><guest_checkout>1</guest_checkout></registration><terms><enabled>1</enabled><title>Terms and Conditions</title><label>I agree</label><contents>Terms and conditions content</contents></terms><comment><enabled>1</enabled><title>Order Comment</title></comment></oscheckout><productquestions><general><active>1</active><who_ask>1</who_ask><who_answer>1</who_answer><automatic>1</automatic><rate>1</rate><who_rate>1</who_rate><visibility>1</visibility></general><question_email><active>0</active><notification>0</notification><admin_email/><email_sender>general</email_sender></question_email><faqs_page><title>FAQs</title><url_key>faqs</url_key><accordition>1</accordition><sort_by>score</sort_by><faqs_link_to_toplink>0</faqs_link_to_toplink><meta_keywords/><meta_description/></faqs_page><faqs_block><active>0</active><block_title>FAQs</block_title><number_of_topics>10</number_of_topics></faqs_block><recaptcha><enabled>0</enabled><public_key/><private_key/><theme>red</theme><lang>en</lang></recaptcha></productquestions><quickview><general><active>1</active></general></quickview><social><general><active>0</active><show_on_header>0</show_on_header></general><facebook><active_sdk>1</active_sdk><active>1</active><client_id>597114697057261</client_id><client_secret>9da6101dad843c670a29f7465c844d73</client_secret></facebook><google><active>1</active><client_id>272645237503-72n7jkh9krhhfb65q796gckk6hjpp57a.apps.googleusercontent.com</client_id><client_secret>bizWuDh6roBUJ9sWABoNvPNI</client_secret></google><twitter><active>1</active><token>4706973499-0op1IGKAqN7T3MUTakISh3ewLi0oAhexEFuTAT3</token><token_secret>GQbglste7FSpTMhi4xGKpRpI5rKnp8kdjF1OffpaTFamgRcECEXRQ7SlwLSbpF52m0Uo617pGoMZPIVQATISVHFTFI</token_secret><client_id>raFJn5woSG4ln726ua8Jau7r8</client_id><client_secret>N8Rf9RAlovGqJoYGGEk9r7abrTwBcU1Mqg0yef6srQq64y5zwe</client_secret><twitter_title/><twitter_user>magentosulution</twitter_user><twitter_count>2</twitter_count><truncate>210</truncate></twitter><facebook_like_box><active>0</active></facebook_like_box><flickr><active>0</active></flickr><instagram><active>1</active><access_token>5499474686.1677ed0.a0d23e0894624158b0e90ad80dcd7988</access_token><quantity>12</quantity><resolution>low_resolution</resolution><width>300</width><height>300</height></instagram></social><moneybookers><settings><activationstatus>0</activationstatus></settings></moneybookers><crontab><jobs><currency_rates_update><schedule><cron_expr>0 0 * * *</cron_expr></schedule></currency_rates_update><catalog_product_alert><schedule><cron_expr>0 0 * * *</cron_expr></schedule><run><model>productalert/observer::process</model></run></catalog_product_alert><log_clean><schedule><cron_expr>0 0 * * *</cron_expr></schedule><run><model>log/cron::logClean</model></run></log_clean></jobs></crontab><defer_js><general><enabled>0</enabled></general></defer_js><advanced><modules_disable_output><AM_Extensions>0</AM_Extensions><AM_RevSlider>0</AM_RevSlider><AW_Blog>0</AW_Blog><Cm_RedisSession>0</Cm_RedisSession><MGS_AdvancedSearch>0</MGS_AdvancedSearch><MGS_Advancedreports>0</MGS_Advancedreports><MGS_AjaxCart>0</MGS_AjaxCart><MGS_Brand>0</MGS_Brand><MGS_Deals>0</MGS_Deals><MGS_Event>0</MGS_Event><MGS_Lookbook>0</MGS_Lookbook><MGS_Maintanance>0</MGS_Maintanance><MGS_Megamenu>0</MGS_Megamenu><MGS_Mgscore>0</MGS_Mgscore><MGS_Mpanel>0</MGS_Mpanel><MGS_Oscheckout>0</MGS_Oscheckout><MGS_Portfolio>0</MGS_Portfolio><MGS_ProductQuestions>0</MGS_ProductQuestions><MGS_Profiles>0</MGS_Profiles><MGS_Promobanners>0</MGS_Promobanners><MGS_QuickView>0</MGS_QuickView><MGS_Social>0</MGS_Social><MGS_Storelocator>0</MGS_Storelocator><MGS_Testimonial>0</MGS_Testimonial><Mage_Admin>0</Mage_Admin><Mage_AdminNotification>1</Mage_AdminNotification><Mage_Api>0</Mage_Api><Mage_Api2>0</Mage_Api2><Mage_Authorizenet>0</Mage_Authorizenet><Mage_Backup>0</Mage_Backup><Mage_Bundle>0</Mage_Bundle><Mage_Captcha>0</Mage_Captcha><Mage_Catalog>0</Mage_Catalog><Mage_CatalogIndex>0</Mage_CatalogIndex><Mage_CatalogInventory>0</Mage_CatalogInventory><Mage_CatalogRule>0</Mage_CatalogRule><Mage_CatalogSearch>0</Mage_CatalogSearch><Mage_Centinel>0</Mage_Centinel><Mage_Checkout>0</Mage_Checkout><Mage_Cms>0</Mage_Cms><Mage_Compiler>0</Mage_Compiler><Mage_ConfigurableSwatches>0</Mage_ConfigurableSwatches><Mage_Connect>0</Mage_Connect><Mage_Contacts>0</Mage_Contacts><Mage_Core>0</Mage_Core><Mage_Cron>0</Mage_Cron><Mage_CurrencySymbol>0</Mage_CurrencySymbol><Mage_Customer>0</Mage_Customer><Mage_Dataflow>0</Mage_Dataflow><Mage_Directory>0</Mage_Directory><Mage_Downloadable>0</Mage_Downloadable><Mage_Eav>0</Mage_Eav><Mage_GiftMessage>0</Mage_GiftMessage><Mage_GoogleAnalytics>0</Mage_GoogleAnalytics><Mage_GoogleCheckout>0</Mage_GoogleCheckout><Mage_ImportExport>0</Mage_ImportExport><Mage_Index>0</Mage_Index><Mage_Install>0</Mage_Install><Mage_Log>0</Mage_Log><Mage_Media>0</Mage_Media><Mage_Newsletter>0</Mage_Newsletter><Mage_Oauth>0</Mage_Oauth><Mage_Page>0</Mage_Page><Mage_PageCache>0</Mage_PageCache><Mage_Paygate>0</Mage_Paygate><Mage_Payment>0</Mage_Payment><Mage_Paypal>0</Mage_Paypal><Mage_PaypalUk>0</Mage_PaypalUk><Mage_Persistent>0</Mage_Persistent><Mage_Poll>0</Mage_Poll><Mage_ProductAlert>0</Mage_ProductAlert><Mage_Rating>0</Mage_Rating><Mage_Reports>0</Mage_Reports><Mage_Review>0</Mage_Review><Mage_Rss>0</Mage_Rss><Mage_Rule>0</Mage_Rule><Mage_Sales>0</Mage_Sales><Mage_SalesRule>0</Mage_SalesRule><Mage_Sendfriend>0</Mage_Sendfriend><Mage_Shipping>0</Mage_Shipping><Mage_Sitemap>0</Mage_Sitemap><Mage_Tag>0</Mage_Tag><Mage_Tax>0</Mage_Tax><Mage_Uploader>0</Mage_Uploader><Mage_Usa>0</Mage_Usa><Mage_Weee>0</Mage_Weee><Mage_Widget>0</Mage_Widget><Mage_Wishlist>0</Mage_Wishlist><Mage_XmlConnect>0</Mage_XmlConnect><Phoenix_Moneybookers>0</Phoenix_Moneybookers></modules_disable_output></advanced></admin>

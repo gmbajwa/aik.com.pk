@@ -671,3 +671,14 @@ Stack trace:
 [05-Oct-2019 14:26:56 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home1/laliquep/public_html/master/app/design/frontend/mgstheme/claue/template/mgs/brand/related_products.phtml on line 84
 [05-Oct-2019 14:26:59 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home1/laliquep/public_html/master/app/design/frontend/mgstheme/claue/template/mgs/brand/related_products.phtml on line 84
 [06-Oct-2019 06:11:07 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home1/laliquep/public_html/master/app/design/frontend/mgstheme/claue/template/mgs/brand/related_products.phtml on line 84
+[06-Oct-2019 06:42:38 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home1/laliquep/public_html/master/app/design/frontend/mgstheme/claue/template/mgs/brand/related_products.phtml on line 84
+[06-Oct-2019 06:43:15 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home1/laliquep/public_html/master/app/design/frontend/mgstheme/claue/template/wishlist/sidebar.phtml on line 49
+[06-Oct-2019 06:44:11 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home1/laliquep/public_html/master/app/design/frontend/mgstheme/claue/template/mgs/brand/related_products.phtml on line 84
+[06-Oct-2019 06:44:47 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home1/laliquep/public_html/master/app/design/frontend/mgstheme/claue/template/mgs/quickview/addtocart.phtml on line 9
+[06-Oct-2019 06:45:04 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home1/laliquep/public_html/master/app/design/frontend/mgstheme/claue/template/mgs/brand/related_products.phtml on line 84
+[06-Oct-2019 06:46:04 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home1/laliquep/public_html/master/app/design/frontend/mgstheme/claue/template/mgs/quickview/addtocart.phtml on line 9
+[06-Oct-2019 06:46:09 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home1/laliquep/public_html/master/app/design/frontend/mgstheme/claue/template/mgs/brand/related_products.phtml on line 84
+[06-Oct-2019 06:46:26 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home1/laliquep/public_html/master/app/design/frontend/mgstheme/claue/template/mgs/quickview/addtocart.phtml on line 9
+[06-Oct-2019 06:46:32 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home1/laliquep/public_html/master/app/design/frontend/mgstheme/claue/template/mgs/brand/related_products.phtml on line 84
+[06-Oct-2019 06:48:59 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home1/laliquep/public_html/master/app/design/frontend/mgstheme/claue/template/mgs/brand/related_products.phtml on line 84
+[06-Oct-2019 09:43:50 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home1/laliquep/public_html/master/app/design/frontend/mgstheme/claue/template/mgs/brand/related_products.phtml on line 84

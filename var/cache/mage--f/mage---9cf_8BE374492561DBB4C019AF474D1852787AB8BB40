@@ -33,7 +33,10 @@
 						<span onclick="setSearchCatValue(147, 'Sale')">Sale</span>
 													<ul>
 																	<li>
-										<span onclick="setSearchCatValue(148, 'All')">- All</span>
+										<span onclick="setSearchCatValue(152, 'All')">- All</span>
+									</li>
+																	<li>
+										<span onclick="setSearchCatValue(154, 'dummy')">- dummy</span>
 									</li>
 															</ul>
 											</li>

@@ -1,0 +1,147 @@
+
+					<ul id="mainMenu" class="nav nav-pills nav-main aik-file">
+										
+									<li class="aik-sub-section   mega-menu-item mega-menu-fullwidth static-menu dropdown">
+						<a href="#" class="level0 dropdown-toggle">Shop <span class="icon-next"><i class="fa fa-caret-down"></i></span></a><span class="toggle-menu visible-xs-block visible-sm-block"><a onclick="showMenu('mobile-menu-2');" href="javascript:void(0)" class="icon-drop mobile-menu-2"></a></span><ul class="dropdown-menu" id="mobile-menu-2"><li><section class="mega-menu-content">
+<div class="row">
+<div class="col-md-12">
+<div class="row">
+<div class="aik-world-the-house col-md-2"><span class="mega-menu-sub-title">New Arrivals</span>
+<ul>
+<li><span class="aik-shop-sub-meu-title-spacing-v01">Names of the most recent col.</span></li>
+</ul>
+<!--<span class="mega-menu-sub-title aik-shop-sub-meu-title-spacing new-this-month-spacing">New This Month</span>
+<ul>
+<li><a href="/new-this-month/ready-to-wear.html">Ready to wear</a></li>
+</ul> --></div>
+<div class="aik-world-the-house col-md-2"><span class="mega-menu-sub-title">Unstitched</span>
+<ul>
+<li><span class="aik-shop-sub-meu-title aik-shop-sub-meu-title-spacing">Fall 19</span></li>
+<li><a href="/unstitched/fall-19/vol-1.html">Vol 1</a></li>
+<!--
+<li><a href="/unstitched/fall-19/vol-2.html">Vol 2</a></li>
+<li><span class="aik-shop-sub-meu-title-spacing-v2">Spring / Summer 19</span></li>
+<li><a href="/unstitched/spring-summer-19/vol-1.html">Vol 1</a></li>
+<li><a href="/unstitched/spring-summer-19/vol-1.html">Vol 2</a></li>
+<li><span class="aik-shop-sub-meu-title aik-shop-sub-meu-title-spacing lawn-20-spacing">Lawn 20</span></li>
+<li><a href="/unstitched/lawn-20/vol-1.html">Vol 1</a></li>
+<li><a href="/unstitched/lawn-20/vol-2.html">Vol 2</a></li> --></ul>
+</div>
+<!-- <div class="aik-world-the-house col-md-2"><span class="mega-menu-sub-title">Ready to wear</span>
+<ul>
+<li><span class="aik-shop-sub-meu-title aik-shop-sub-meu-title-spacing">Pret</span></li>
+<li><a href="/ready-to-wear/pret/fall-rtw-19.html">Fall RTW 19</a></li>
+<li><a href="/ready-to-wear/pret/tops.html">Tops</a></li>
+<li><a href="/ready-to-wear/pret/seperates.html">Seperates</a></li>
+<li><span class="aik-shop-sub-meu-title-spacing-v3">Luxury Pret</span></li>
+<li><a href="/luxury-pret/spring-rtw-20.html">Spring RTW 20</a></li>
+<li><a href="/luxury-pret/tops.html">Tops</a></li>
+<li><a href="/luxury-pret/seperates.html">Seperates</a></li>
+</ul>
+</div>
+<div class="aik-world-the-house col-md-3"><span class="mega-menu-sub-title">Accessories</span>
+<ul>
+<li><a href="/accessories/scarves.html">Scarves</a></li>
+<li><a href="/accessories/earrings.html">Earrings</a></li>
+<li><a href="/accessories/etc.html">Etc.</a></li>
+</ul>
+</div> -->
+<div class="aik-world-the-house col-md-2"><span class="mega-menu-sub-title">Sale</span>
+<ul>
+<li><a href="/sale/all.html">All</a></li>
+<!--
+<li><a href="/sale/unstitched.html">Unstitched</a></li>
+<li><a href="/sale/ready-to-wear.html">Ready to wear</a></li>
+<li><a href="/sale/accessories.html">Accessories</a></li> --></ul>
+</div>
+<div class="aik-world-the-house col-md-6"><a href="http://aik.com.pk/"><img class="img-responsive" alt="aik careers" src="https://place-hold.it/640x250/f6f6f8?text=AIK%20VALUES" /></a></div>
+</div>
+</div>
+</div>
+</section></li></ul>						</li>
+
+																				
+									<li class="aik-sub-section   mega-menu-item mega-menu-fullwidth static-menu dropdown">
+						<a href="" class="level0 dropdown-toggle">Collections <span class="icon-next"><i class="fa fa-caret-down"></i></span></a><span class="toggle-menu visible-xs-block visible-sm-block"><a onclick="showMenu('mobile-menu-32');" href="javascript:void(0)" class="icon-drop mobile-menu-32"></a></span><ul class="dropdown-menu" id="mobile-menu-32"><li><ul class="aik-collections-mgs">
+<li><a class="aik-collections-mgs-a" href="https://master.aik.com.pk/unstiched.html"><img class="img-responsive" alt="" src="https://master.aik.com.pk/media/wysiwyg/slider_shoes_1_.jpg" /></a><span class="aik-collections-mgs-span"><a href="https://master.aik.com.pk/unstiched.html">Unstiched 2019</a></span></li>
+<li><a class="aik-collections-mgs-a" href="https://master.aik.com.pk/ready-to-wear.html"><img class="img-responsive" alt="" src="https://master.aik.com.pk/media/wysiwyg/slider_furniture2_1.jpg" /></a><span class="aik-collections-mgs-span"><a href="https://master.aik.com.pk/ready-to-wear.html">Ready to wear 2019</a></span></li>
+<li><a class="aik-collections-mgs-a" href="https://master.aik.com.pk/accessories-1.html"><img class="img-responsive" alt="" src="https://master.aik.com.pk/media/wysiwyg/slider_shoes_1_.jpg" /></a><span class="aik-collections-mgs-span"><a href="https://master.aik.com.pk/accessories-1.html">Accessories</a></span></li>
+</ul>
+<div class="aik-collections-discover-mgs"><button class="button btn btn-default" title="Discover" onclick="window.location='/discover/';" type="button"><span><span class="aik-collection-discover-btn">Discover</span></span></button></div></li></ul>						</li>
+
+																				
+									<li class="aik-sub-section   mega-menu-item mega-menu-fullwidth static-menu dropdown">
+						<a href="" class="level0 dropdown-toggle">AIK WORLD <span class="icon-next"><i class="fa fa-caret-down"></i></span></a><span class="toggle-menu visible-xs-block visible-sm-block"><a onclick="showMenu('mobile-menu-19');" href="javascript:void(0)" class="icon-drop mobile-menu-19"></a></span><ul class="dropdown-menu" id="mobile-menu-19"><li><section class="mega-menu-content">
+<div class="row">
+<div class="col-md-12">
+<div class="row">
+<div class="aik-world-the-house col-md-4"><span class="mega-menu-sub-title">The House</span>
+<ul>
+<li><a href="/blog">News</a></li>
+<li><a href="/blog">The Story</a></li>
+</ul>
+</div>
+<div class="aik-world-aik-feed col-md-4"><span class="mega-menu-sub-title">AIK Feed</span>
+<div class="row">
+<div class="aik-world-aik-feed-image-grid col-md-6"><a href="#"><img class="img-responsive" alt="aik graphics feeds" src="https://master.aik.com.pk/media/wysiwyg/aik-feed-img-grid.jpg" /></a></div>
+<!-- end of image grid -->
+<div class="aik-world-aik-feed-text col-md-6">
+<p>Text when if needed latter on</p>
+</div>
+</div>
+<!-- end of row --> <!-- end of aik feed text --></div>
+<!-- end of aik feed -->
+<div class="aik-world-services col-md-4"><span class="mega-menu-sub-title">Services</span> 
+<p><span class="mega-menu-sub-title">Keep in touch</span></p>
+<ul>
+<li><a href="#">Newsletter</a></li>
+<li><a href="#">Size Chart</a></li>
+<li><a href="#">Contact Our Support Team</a></li>
+</ul>
+</div>
+<!-- end of aik world --></div>
+<!-- end of row --></div>
+<!-- end of col --></div>
+<!-- end of row --></section>
+<!-- end of services --></li></ul>						</li>
+
+																										<li class="home logo-home   active">
+						
+							<div class="logo-container">
+									<h1 class="logo">
+		<a href="https://master.aik.com.pk/?___SID=U" title="Magento Commerce" class="logo logo-header">
+			<img src="https://master.aik.com.pk/media/mpanel/logo/default/logo_12.png" alt="Magento Commerce" />
+		</a>
+	</h1>
+															</div>
+						
+					</li>
+																																																					</ul>
+<div class="row hidden-sm hidden-xs">
+<div class="col-md-4 col-sm-6 col-xs-12 aik-main-cat-sub-section">
+<ul>
+<li><a href="#">New Arrivals</a></li>
+<li><a href="#">Unstitched</a></li>
+<!-- <li><a href="#">Ready to wear</a></li> -->
+<li><a href="#">Sale</a></li>
+
+</ul>
+</div>
+
+<div class="col-md-4 col-sm-6 col-xs-12 aik-main-cat-sub-section">
+<ul>
+<li><a href="#">Unstitched</a></li>
+<!-- <li><a href="#">Ready to wear</a></li> -->
+</ul>
+</div>
+
+<div class="col-md-4 col-sm-6 col-xs-12 aik-main-cat-sub-section">
+<ul>
+<li><a href="#">The House</a></li>
+<li><a href="#">Aik feed</a></li>
+<li><a href="#">Services</a></li>
+</ul>
+</div>
+
+
+</div>

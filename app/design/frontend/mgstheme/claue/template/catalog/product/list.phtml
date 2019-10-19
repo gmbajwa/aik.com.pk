@@ -54,7 +54,7 @@ $size = $panelHelper->convertRatioToSize();
                 <?php echo Mage::getStoreConfig('mpanel/share_this/span_tags') ?>
             </div>
         <?php endif; ?>
-        <div class="col-md-12">
+        <div class="col-md-12 hide-product-listing-category-view">
             <?php echo $this->getToolbarBlock()->setTemplate('catalog/product/list/top_toolbar.phtml')->toHtml(); ?>
         </div>
         <?php // List mode ?>

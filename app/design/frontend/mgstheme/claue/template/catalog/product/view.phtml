@@ -49,6 +49,7 @@
 
 <?php // Custom Static Block ?>
 <?php $topStaticBlock = $this->getLayout()->createBlock('cms/block')->setBlockId('mgs_panel_product_static_block_top')->setCanEdit(1)->toHtml(); ?>
+<?php $aikProductPageNeedHelpStaticBlock = $this->getLayout()->createBlock('cms/block')->setBlockId('aik_product_detaile_page_need_help')->setCanEdit(1)->toHtml(); ?>
 <?php $bottomStaticBlock = $this->getLayout()->createBlock('cms/block')->setBlockId('mgs_panel_product_static_block_bottom')->setCanEdit(1)->toHtml(); ?>
 <?php // Get Tab Template ?>
 <?php if($_product->getMgsDetailTab() == ""): ?>
@@ -77,7 +78,7 @@
 					<div class="product-shop col-md-3 col-sm-4 col-xs-12 hidden-xs">
 						<div class="product-detail-infomation-sticky" data-sticky>
 							<div class="product-name">
-								<h4><?php echo $_helper->productAttribute($_product, $_product->getName(), 'name') ?></h4>
+								<h1><?php echo $_helper->productAttribute($_product, $_product->getName(), 'name') ?></h1>
 							</div>
 							<div class="reviews-box">
 								<?php if (Mage::getStoreConfig('mpanel/product_details/reviews_summary')): ?>
@@ -144,7 +145,7 @@
 						<div class="product-detail-infomation-sticky" data-sticky>
 							<div class="visible-xs">
 								<div class="product-name">
-									<h4><?php echo $_helper->productAttribute($_product, $_product->getName(), 'name') ?></h4>
+									<h1><?php echo $_helper->productAttribute($_product, $_product->getName(), 'name') ?></h1>
 								</div>
 								<div class="reviews-box">
 									<?php if (Mage::getStoreConfig('mpanel/product_details/reviews_summary')): ?>
@@ -174,7 +175,7 @@
 							
 
 							<?php if (!$this->hasOptions()): ?>
-								<div class="add-to-box">
+								<div class="add-to-box one-seventy">
 									<?php if ($_product->isSaleable()): ?>
 										<?php echo $this->getChildHtml('addtocart') ?>
 									<?php endif; ?>
@@ -187,7 +188,7 @@
 									</div>
 								</div>
 							<?php elseif (!$_product->isSaleable()): ?>
-								<div class="add-to-box">
+								<div class="add-to-box one-nighty">
 									<?php echo $this->getChildHtml('addto') ?>
 									
 									<div class="static-block-top">
@@ -247,16 +248,16 @@
 				</div>
 			<?php else: ?>
 				<div class="row" <?php if($galleryType == 2): ?> data-sticky-container<?php endif ?>>
-					<div class="product-img-box col-md-6 col-sm-6 col-xs-12">
+					<div class="product-img-box col-md-5 col-sm-5 col-xs-12 col-md-offset-2">
 						<div class="img-box-gallery">
 							<?php echo $this->getChildHtml('media') ?>
 							<?php echo $helper->getProductLabel($_product) ?>
 						</div>
 					</div>
-					<div class="product-shop col-md-6 col-sm-6 col-xs-12">
+					<div class="product-shop col-md-3 col-sm-3 col-xs-12">
 						<?php if($galleryType == 2): ?><div class="product-detail-infomation-sticky" data-margin-top="80" data-sticky><?php endif ?>
 						<div class="product-name">
-							<h4><?php echo $_helper->productAttribute($_product, $_product->getName(), 'name') ?></h4>
+							<h1><?php echo $_helper->productAttribute($_product, $_product->getName(), 'name') ?></h1>
 						</div>
 						<div class="reviews-box">
 							<?php if (Mage::getStoreConfig('mpanel/product_details/reviews_summary')): ?>
@@ -289,7 +290,12 @@
 						<?php endif ?>
 						
 						<?php if (!$this->hasOptions()): ?>
-							<div class="add-to-box">
+							<div class="add-to-box two-nine-two">
+
+								<div class="static-block-top">
+									<?php echo $topStaticBlock; ?>
+								</div>
+
 								<?php if ($_product->isSaleable()): ?>
 									<?php echo $this->getChildHtml('addtocart') ?>
 								<?php endif; ?>
@@ -297,12 +303,10 @@
 								<?php echo $this->getChildHtml('addto') ?>
 								
 								<?php echo $this->getChildHtml('extra_buttons') ?>
-								<div class="static-block-top">
-									<?php echo $topStaticBlock; ?>
-								</div>
+								
 							</div>
 						<?php elseif (!$_product->isSaleable()): ?>
-							<div class="add-to-box">
+							<div class="add-to-box three-zero-five">
 								<?php echo $this->getChildHtml('addto') ?>
 								
 								<div class="static-block-top">
@@ -365,7 +369,7 @@
 										<?php if ($key != 'description' && $key != 'additional' && $key != 'reviews' && $key != 'product_tag_list' && $key != 'product_questions'): ?>   
 											<div class="tab-pane<?php if ($value == 0): ?> active<?php endif ?>" id="<?php echo "box-{$key}" ?>">
 												<div class="visible-xs tab-acd-title"><?php echo Mage::getStoreConfig('mpanel/product_tabs/' . $key . '_title'); ?></div>
-												<div class="content" <?php if ($value != 0): ?> style="display: none;"<?php endif ?>>
+												<div class="content" <?php if ($value == 0): ?> style="display: none;"<?php endif ?>>
 													<?php if (Mage::getStoreConfig('mpanel/product_tabs/' . $key) == 'attribute'): ?>
 														<?php $p = Mage::getModel('catalog/product')->load($_product->getId()); ?>                            
 														<p><?php echo $p->getResource()->getAttribute(Mage::getStoreConfig('mpanel/product_tabs/' . $key . '_attribute_code_value'))->getFrontend()->getValue($p); ?></p>
@@ -400,6 +404,7 @@
 							</div>
 						<?php endif ?>
 						<?php if($galleryType == 2): ?></div><?php endif ?>
+						<?php echo $aikProductPageNeedHelpStaticBlock; ?>
 					</div>
 				</div>
 			<?php endif ?>
@@ -470,7 +475,7 @@
 						</li>
 					<?php else: ?>
 						<?php if ($tabsArray[$key] != ''): ?>
-							<li<?php if ($i == 1): ?> class="active"<?php endif ?> id="menu-for-<?php echo $key ?>">
+							<li <?php if ($i == 1): ?> class="active"<?php endif ?> id="menu-for-<?php echo $key ?>">
 								<a href="#<?php echo "box-{$key}" ?>" data-toggle="tab">                                                
 									<?php if ($title = $this->getChildData($key, 'title')): ?>
 										<?php echo $this->escapeHtml($title); ?>
@@ -542,7 +547,7 @@
 		});
 		
 		/* Sticky Information */
-		<?php if($galleryType == 3 || $galleryType == 2): ?>
+		<?php if(true): ?>
 			var sticky = new Sticky('[data-sticky]', {});
 		<?php endif ?>
 	</script>

@@ -25,7 +25,7 @@
 						<span onclick="setSearchCatValue(123, 'Unstitched')">Unstitched</span>
 													<ul>
 																	<li>
-										<span onclick="setSearchCatValue(124, 'Fall 19')">- Fall 19</span>
+										<span onclick="setSearchCatValue(124, 'Winter 19')">- Winter 19</span>
 									</li>
 															</ul>
 											</li>
@@ -34,9 +34,6 @@
 													<ul>
 																	<li>
 										<span onclick="setSearchCatValue(152, 'All')">- All</span>
-									</li>
-																	<li>
-										<span onclick="setSearchCatValue(154, 'dummy')">- dummy</span>
 									</li>
 															</ul>
 											</li>

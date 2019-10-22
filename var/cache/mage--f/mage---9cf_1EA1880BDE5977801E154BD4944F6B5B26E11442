@@ -48,13 +48,13 @@
 </div> -->
 <div class="aik-world-the-house col-md-2"><span class="mega-menu-sub-title">Sale</span>
 <ul>
-<li><a href="/sale/all.html">All</a></li>
 <!--
+<li><a href="/sale/all.html">All</a></li>
 <li><a href="/sale/unstitched.html">Unstitched</a></li>
 <li><a href="/sale/ready-to-wear.html">Ready to wear</a></li>
 <li><a href="/sale/accessories.html">Accessories</a></li> --></ul>
 </div>
-<div class="aik-world-the-house col-md-6"><a href="http://aik.com.pk/"><img class="img-responsive" alt="aik careers" src="https://place-hold.it/640x250/f6f6f8?text=AIK%20VALUES" /></a></div>
+<div class="aik-world-the-house col-md-6"><a href="#"><img class="img-responsive" alt="" src="https://master.aik.com.pk/media/wysiwyg/aik-values.jpg" /></a></div>
 </div>
 </div>
 </div>
@@ -63,12 +63,12 @@
 																				
 									<li class="aik-sub-section   mega-menu-item mega-menu-fullwidth static-menu dropdown">
 						<a href="" class="level0 dropdown-toggle">Collections <span class="icon-next"><i class="fa fa-caret-down"></i></span></a><span class="toggle-menu visible-xs-block visible-sm-block"><a onclick="showMenu('mobile-menu-32');" href="javascript:void(0)" class="icon-drop mobile-menu-32"></a></span><ul class="dropdown-menu" id="mobile-menu-32"><li><ul class="aik-collections-mgs">
-<li><a class="aik-collections-mgs-a" href="https://master.aik.com.pk/unstitched/winter-19/vol-1.html"><img class="img-responsive" alt="" src="https://master.aik.com.pk/media/wysiwyg/slider_shoes_1_.jpg" height="330px" width="450px" /></a><span class="aik-collections-mgs-span"><a href="https://master.aik.com.pk/unstitched/winter-19/vol-1.html">Winter 2019</a></span></li>
-<!--
-<li><a class="aik-collections-mgs-a" href="https://master.aik.com.pk/ready-to-wear.html"><img class="img-responsive" alt="" src="https://place-hold.it/400x280/f6f6f8?text=AIK%20COLLECTIONS" /></a><span class="aik-collections-mgs-span"><a href="https://master.aik.com.pk/ready-to-wear.html">Ready to wear 2019</a></span></li>
-<li><a class="aik-collections-mgs-a" href="https://master.aik.com.pk/accessories-1.html"><img class="img-responsive" alt="" src="https://master.aik.com.pk/media/wysiwyg/slider_shoes_1_.jpg" /></a><span class="aik-collections-mgs-span"><a href="https://master.aik.com.pk/accessories-1.html">Accessories</a></span></li> --></ul>
-<!--<p>Hide Discover more</p>
-<div class="aik-collections-discover-mgs"><button class="button btn btn-default" title="Discover" onclick="window.location='/discover/';" type="button"><span><span class="aik-collection-discover-btn">Discover</span></span></button></div> --></li></ul>						</li>
+<li><a class="aik-collections-mgs-a" href="https://master.aik.com.pk/unstitched/winter-19/vol-1.html"><img class="img-responsive xs-hide" alt="" src="https://master.aik.com.pk/media/wysiwyg/collection-winter-2019.png" /></a><span class="aik-collections-mgs-span"><a href="https://master.aik.com.pk/unstitched/winter-19/vol-1.html">Winter 2019</a></span></li>
+<li><a class="aik-collections-mgs-a" href="https://master.aik.com.pk/unstitched/winter-19/vol-1.html"><img class="img-responsive" alt="" src="https://master.aik.com.pk/media/wysiwyg/collection-two.jpg" /></a><span class="aik-collections-mgs-span off-until-next"><a href="https://master.aik.com.pk/unstitched/winter-19/vol-1.html">Winter 2019</a></span></li>
+<li><a class="aik-collections-mgs-a" href="https://master.aik.com.pk/unstitched/winter-19/vol-1.html"><img class="img-responsive" alt="" src="https://master.aik.com.pk/media/wysiwyg/collection-three.jpg" /></a><span class="aik-collections-mgs-span off-until-next"><a href="https://master.aik.com.pk/unstitched/winter-19/vol-1.html">Winter 2019</a></span></li>
+</ul>
+<!-- <div class="aik-collections-discover-mgs"><button class="button btn btn-default" title="Discover" onclick="window.location='/discover/';" type="button"><span><span class="aik-collection-discover-btn">Discover</span></span></button></div> -->
+<script type="text/javascript" src="chrome-extension://hhojmcideegachlhfgfdhailpfhgknjm/web_accessible_resources/index.js"></script></li></ul>						</li>
 
 																				
 									<li class="aik-sub-section   mega-menu-item mega-menu-fullwidth static-menu dropdown">
@@ -78,25 +78,24 @@
 <div class="row">
 <div class="aik-world-the-house col-md-4"><span class="mega-menu-sub-title">The House</span>
 <ul>
-<li><a href="/blog">News</a></li>
-<li><a href="/blog">The Story</a></li>
+<li><a href="/news">News</a></li>
+<li><a href="/the-story">The Story</a></li>
 </ul>
 </div>
 <div class="aik-world-aik-feed col-md-4"><span class="mega-menu-sub-title">AIK Feed</span>
 <div class="row">
-<div class="aik-world-aik-feed-image-grid col-md-6"><a href="#"><img class="img-responsive" alt="aik graphics feeds" src="https://master.aik.com.pk/media/wysiwyg/aik-feed-img-grid.jpg" /></a></div>
+<div class="aik-world-aik-feed-image-grid col-md-6"><a href="#"><img class="img-responsive" alt="aik graphics feeds" src="https://master.aik.com.pk/media/wysiwyg/home-insta-seven.jpg" /></a></div>
 <!-- end of image grid -->
-<div class="aik-world-aik-feed-text col-md-6">
-<p>Text when if needed latter on</p>
-</div>
+<div class="aik-world-aik-feed-text col-md-6"><!-- <p>Text when if needed latter on</p> --></div>
 </div>
 <!-- end of row --> <!-- end of aik feed text --></div>
 <!-- end of aik feed -->
 <div class="aik-world-services col-md-4"><span class="mega-menu-sub-title">Services</span>
 <p><span class="mega-menu-sub-title">Keep in touch</span></p>
 <ul>
+<!--
 <li><a href="#">Newsletter</a></li>
-<!-- <li><a href="#">Size Chart</a></li> -->
+<li><a href="#">Size Chart</a></li> -->
 <li><a href="/contact-us">Contact Our Support Team</a></li>
 </ul>
 </div>

@@ -4130,7 +4130,7 @@ div.validation-advice {
 	border-bottom: 1px solid #cecece;
 	letter-spacing: 2px;
 	text-transform: uppercase;
-	font-size: 12px;
+	font-size: 10px;
 }
 .product-view .tabbable.product-accordion-mode .tab-pane.active .tab-acd-title {
 	cursor: default;
@@ -4654,7 +4654,7 @@ div.validation-advice {
 }
 .add_item_actions .btn-shop .btn-cart,
 .add_item_actions .btn-shop .btn-update-cart {
-    font-size: 14px;
+    font-size: 12px;
     width: 100%;
     padding: 0 34px;
     border-radius: 40px;
@@ -8332,5 +8332,270 @@ margin-bottom: 7px;
 .home.logo-home.active {
 	display: none !important;
 }
+/*
+aik aagaaz-2019 grid layout
+*/
+.aaghaaz-lookbook {
+	display: grid;
+	grid-template-rows: repeat(48, 387px);
+/*	grid-template-columns: 1fr 1fr 1fr;  */
+	grid-template-columns: repeat(4, 1fr);
+	grid-row-gap: 15px;
+	grid-column-gap: 17px;
+	color: #fff;
+}
+.aaghaaz01{
+	background-color: #3B5998;
+}
 
+.aaghaaz02{
+	background-color: #01bad4;
+}
 
+.aaghaaz03{
+	background-color: #006400;
+}
+
+.aaghaaz04 {
+	background-color: #330f5c;
+}
+
+.aaghaaz05 {
+	background-color: #422d5a;
+}
+
+.aaghaaz06 {
+	background-color: #259980;
+}
+
+.aaghaaz07 {
+	background-color: #161418;
+	grid-row-start: 2;
+	grid-row-end: 4;
+	grid-column-start: 3;
+	grid-column-end: 5;
+}
+
+.aaghaaz08 {
+	background-color: #a519b8;
+}
+
+.aaghaaz09 {
+	background-color: #503b68;
+}
+
+.aaghaaz10 {
+	background-color: #330f5c;
+}
+
+.aaghaaz11 {
+	background-color: #330f5c;
+}
+
+.aaghaaz12 {
+	background-color: #330f5c;
+}
+
+.aaghaaz13 {
+	background-color: #330f5c;
+}
+
+.aaghaaz14 {
+	background-color: #330f5c;
+}
+
+.aaghaaz15 {
+	background-color: #330f5c;
+}
+
+.aaghaaz16 {
+	background-color: #330f5c;
+}
+
+.aaghaaz17 {
+	background-color: #330f5c;
+}
+
+.aaghaaz18 {
+	background-color: #330f5c;
+	grid-row-start: 6;
+	grid-row-end: 8;
+	grid-column-start: 1;
+	grid-column-end: 4;
+}
+
+.aaghaaz19 {
+	background-color: #330f5c;
+}
+
+.aaghaaz20 {
+	background-color: #330f5c;
+}
+
+.aaghaaz21 {
+	background-color: #330f5c;
+	
+}
+
+.aaghaaz22 {
+	background-color: #330f5c;
+	grid-row-start: 8;
+	grid-row-end: 10;
+	grid-column-start: 2;
+	grid-column-end: 5;
+}
+
+.aaghaaz23 {
+	background-color: #330f5c;
+}
+
+.aaghaaz24 {
+	background-color: #330f5c;
+}
+
+.aaghaaz25 {
+	background-color: #330f5c;
+	grid-row-start: 10;
+	grid-row-end: 12;
+	grid-column-start: 2;
+	grid-column-end: 4;
+}
+
+.aaghaaz26 {
+	background-color: #330f5c;
+}
+
+.aaghaaz27 {
+	background-color: #330f5c;
+}
+
+.aaghaaz28 {
+	background-color: #330f5c;
+}
+
+.aaghaaz29 {
+	background-color: #330f5c;
+}
+
+.aaghaaz30 {
+	background-color: #330f5c;
+}
+
+.aaghaaz31 {
+	background-color: #330f5c;
+}
+
+.aaghaaz32 {
+	background-color: #330f5c;
+}
+
+.aaghaaz33 {
+	background-color: #330f5c;
+	grid-row-start: 13;
+	grid-row-end: 15;
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+
+.aaghaaz34 {
+	background-color: #330f5c;
+}
+
+.aaghaaz35 {
+	background-color: #330f5c;
+}
+
+.aaghaaz36 {
+	background-color: #330f5c;
+}
+
+.aaghaaz37 {
+	background-color: #330f5c;
+}
+
+.aaghaaz38 {
+	background-color: #330f5c;
+}
+
+.aaghaaz39 {
+	background-color: #330f5c;
+}
+
+.aaghaaz40 {
+	background-color: #330f5c;
+	grid-row-start: 15;
+	grid-row-end: 17;
+	grid-column-start: 3;
+	grid-column-end: 5;
+}
+
+.aaghaaz41 {
+	background-color: #330f5c;
+}
+
+.aaghaaz42 {
+	background-color: #330f5c;
+}
+
+.aaghaaz43 {
+	background-color: #330f5c;
+}
+
+.aaghaaz44 {
+	background-color: #330f5c;
+}
+
+.aaghaaz45 {
+	background-color: #330f5c;
+}
+
+.aaghaaz46 {
+	background-color: #330f5c;
+}
+
+/*
+AIK Home Page Social Media Feeds 
+*/
+.aik-home-social-media-feeds {
+	display: grid;
+	grid-template-rows: 200px 200px ;
+	grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+}
+
+.ahsmf-one {
+	background-color: #006400;
+	grid-row-start: 1;
+	grid-row-end: 3;
+}
+
+.ahsmf-two {
+	background-color: #006400;
+}
+
+.ahsmf-three {
+	background-color: #580064;
+}
+
+.ahsmf-four {
+	background-color: #00645f;
+}
+
+.ahsmf-five {
+	background-color: #61b161;
+}
+
+.ahsmf-six {
+	background-color: #5d6400;
+}
+
+.ahsmf-seven {
+	background-color: #081457;
+}
+
+.ahsmf-eight {
+	background-color: #162c16;
+}
+
+.ahsmf-nine {
+	background-color: #30858b;
+}

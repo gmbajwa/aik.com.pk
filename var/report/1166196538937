@@ -1,0 +1,9 @@
+a:5:{i:0;s:45:"Unable to read response, or response is empty";i:1;s:1048:"#0 /home1/laliquep/public_html/master/lib/Varien/Http/Client.php(61): Zend_Http_Client->request('GET')
+#1 /home1/laliquep/public_html/master/app/code/core/Mage/Adminhtml/controllers/DashboardController.php(100): Varien_Http_Client->request('GET')
+#2 /home1/laliquep/public_html/master/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Adminhtml_DashboardController->tunnelAction()
+#3 /home1/laliquep/public_html/master/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(250): Mage_Core_Controller_Varien_Action->dispatch('tunnel')
+#4 /home1/laliquep/public_html/master/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#5 /home1/laliquep/public_html/master/app/code/core/Mage/Core/Model/App.php(354): Mage_Core_Controller_Varien_Front->dispatch()
+#6 /home1/laliquep/public_html/master/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#7 /home1/laliquep/public_html/master/index.php(87): Mage::run('', 'store')
+#8 {main}";s:3:"url";s:546:"/index.php/admin/dashboard/tunnel/key/9c22077c47d6c02283569aa70aad393f/?ga=eyJjaHQiOiJsYyIsImNoZiI6ImJnLHMsZjRmNGY0fGMsbGcsOTAsZmZmZmZmLDAuMSxlZGVkZWQsMCIsImNobSI6IkIsZjRkNGIyLDAsMCwwIiwiY2hjbyI6ImRiNDgxNCIsImNoZCI6ImU6QUFBQUFBQUFBQUFBQUFBQWYuQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBIiwiY2h4dCI6IngseSIsImNoeGwiOiIwOnx8fDU6MDAgQU18fHw4OjAwIEFNfHx8MTE6MDAgQU18fHwyOjAwIFBNfHx8NTowMCBQTXx8fDg6MDAgUE18fHwxMTowMCBQTXx8fDI6MDAgQU18MTp8MHwxfDIiLCJjaHMiOiI1ODd4MzAwIiwiY2hnIjoiNC4zNDc4MjYwODY5Niw1MCwxLDAifQ%253D%253D&h=a7d573e1ca1d49d8a42f55d3fc5ecc8f";s:11:"script_name";s:10:"/index.php";s:4:"skin";s:5:"admin";}
